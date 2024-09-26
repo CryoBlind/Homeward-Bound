@@ -30,7 +30,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.0.169",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Homeward Bound",
   "resources":[
@@ -42,9 +42,11 @@
     {"id":{"name":"scr_input1","path":"scripts/scr_input1/scr_input1.yy",},},
     {"id":{"name":"scr_input2","path":"scripts/scr_input2/scr_input2.yy",},},
     {"id":{"name":"scr_move_collide","path":"scripts/scr_move_collide/scr_move_collide.yy",},},
+    {"id":{"name":"Maze_Tiles_T","path":"sprites/Maze_Tiles_T/Maze_Tiles_T.yy",},},
     {"id":{"name":"spr_player1","path":"sprites/spr_player1/spr_player1.yy",},},
     {"id":{"name":"spr_player2","path":"sprites/spr_player2/spr_player2.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
+    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
