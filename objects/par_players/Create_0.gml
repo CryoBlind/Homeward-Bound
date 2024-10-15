@@ -2,7 +2,7 @@
 // You can write your code in this editor
 left = 0;
 right = 0;
-spd = 4;
+spd = 25;
 
 up = 0;
 down = 0;
