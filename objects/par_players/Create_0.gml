@@ -12,3 +12,5 @@ x_spd = 0;
 accel = 1;
 max_spd = 10;
 drag = 1;
+
+phy_fixed_rotation = true;

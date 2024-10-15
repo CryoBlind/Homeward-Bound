@@ -9,9 +9,12 @@ down = 0;
 
 //For force-based movement
 x_spd = 0;
-accel = 1;
+y_spd = 0;
+accel = 10;
 max_spd = 10;
-drag = 1;
+drag = 10;
+
+phy_fixed_rotation = true;
 
 //rope creation
 offset_y = 1;

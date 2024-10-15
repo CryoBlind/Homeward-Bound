@@ -16,7 +16,7 @@ function scr_move_collide(){
 	}
 
 	//Apply Movement
-	x += spd*x_dir;
-	y += spd*y_dir;
+	phy_speed_x += spd*x_dir;
+	phy_speed_y += spd*y_dir;
 
 }
