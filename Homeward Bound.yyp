@@ -30,10 +30,11 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"Homeward Bound",
   "resources":[
+    {"id":{"name":"obj_GameController","path":"objects/obj_GameController/obj_GameController.yy",},},
     {"id":{"name":"obj_player1","path":"objects/obj_player1/obj_player1.yy",},},
     {"id":{"name":"obj_player2","path":"objects/obj_player2/obj_player2.yy",},},
     {"id":{"name":"obj_rope_segment","path":"objects/obj_rope_segment/obj_rope_segment.yy",},},
