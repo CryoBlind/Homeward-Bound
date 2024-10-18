@@ -5,4 +5,5 @@
 scr_input1();
 
 //Move the player
-scr_move_collide()
+scr_move_collide();
+//physics_apply_local_force(0, 0, 100, 0);

@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //Initialize Viewports
-view_enabled = true;
+/*view_enabled = true;
 view_visible[0] = true;
 
 zoomF = 1;
@@ -19,4 +19,4 @@ var dheight = display_get_height();
 var xpos = (dwidth/2)-480;
 var ypos = (dheight/2)-270;
 window_set_rectangle(xpos,ypos,480,270);
-surface_resize(application_surface, 480,270);
+surface_resize(application_surface, 480,270);*/
