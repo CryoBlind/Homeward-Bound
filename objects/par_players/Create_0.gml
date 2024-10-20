@@ -9,8 +9,9 @@ down = 0;
 
 //For force-based movement
 x_spd = 0;
-accel = 1;
-max_spd = 10;
-drag = 1;
+y_spd = 0;
+accel = 100_000;
+max_spd = 50;
+drag = 20000;
 
 phy_fixed_rotation = true;

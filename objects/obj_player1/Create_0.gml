@@ -10,9 +10,9 @@ down = 0;
 //For force-based movement
 x_spd = 0;
 y_spd = 0;
-accel = 10;
-max_spd = 10;
-drag = 10;
+accel = 100_000;
+max_spd = 50;
+drag = 20_000;
 
 phy_fixed_rotation = true;
 
@@ -53,6 +53,10 @@ host = self;
 next_rope = instance_create_layer(x, y+offset_y, layer_get_id("Rope"), obj_rope_segment);
 
 attach = physics_joint_revolute_create(self, next_rope, x, y, -1, -1, false, 0, 0, false, false);
+physics_joint_set_value(attach, phy_joint_damping_ratio, 1);
+physics_joint_set_value(attach, phy_joint_frequency, 10);
+physics_joint_set_value(attach, phy_joint_reaction_force_x, 1_000_000_000);
+physics_joint_set_value(attach, phy_joint_reaction_force_y, 1_000_000_000);
 //attach = physics_joint_distance_create(self, next_rope, x, y, next_rope.x, next_rope.y, false);
 //physics_joint_set_value(attach, phy_joint_damping_ratio, 1);
 //physics_joint_set_value(attach, phy_joint_frequency, 10);
@@ -69,8 +73,8 @@ repeat(40){
 	link = physics_joint_rope_create(last_rope, next_rope, last_rope.x, last_rope.y, next_rope.x, next_rope.y, 25,false);
 	physics_joint_set_value(link, phy_joint_damping_ratio, 1);
 	physics_joint_set_value(link, phy_joint_frequency, 10);
-	physics_joint_set_value(link, phy_joint_reaction_force_x, 1000);
-	physics_joint_set_value(link, phy_joint_reaction_force_y, 1000);
+	physics_joint_set_value(link, phy_joint_reaction_force_x, 1_000_000_000);
+	physics_joint_set_value(link, phy_joint_reaction_force_y, 1_000_000_000);
 	
 	with(next_rope){
 		parent = other.last_rope;
@@ -82,8 +86,8 @@ last_rope = next_rope;
 next_rope = instance_create_layer(x, y+offset_y, layer_get_id("Interactive"), obj_player2);
 	
 //link = physics_joint_revolute_create(next_rope, last_rope, x, y, -1, -1, false, 0, 0, false, false);
-link = physics_joint_rope_create(last_rope, next_rope, last_rope.x, last_rope.y, next_rope.x, next_rope.y, 25,false);
+link = physics_joint_rope_create(last_rope, next_rope, last_rope.x, last_rope.y, next_rope.x, next_rope.y, 0,false);
 physics_joint_set_value(link, phy_joint_damping_ratio, .1);
 physics_joint_set_value(link, phy_joint_frequency, 10);
-physics_joint_set_value(link, phy_joint_reaction_force_x, 1000);
-physics_joint_set_value(link, phy_joint_reaction_force_y, 1000);
+physics_joint_set_value(link, phy_joint_reaction_force_x, 1_000_000_000);
+physics_joint_set_value(link, phy_joint_reaction_force_y, 1_000_000_000);

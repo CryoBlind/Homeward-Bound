@@ -4,6 +4,8 @@ function scr_move_collide(){
 	//Set x direction
 	x_dir =  right - left;
 	y_dir = down - up;
+	
+	
 
 	//See if we're colliding with a wall
 	//if place_meeting(x+spd*x_dir,y+spd*y_dir,par_wall){
@@ -56,6 +58,9 @@ function scr_move_collide(){
 	//Apply Movement
 	//phy_speed_x += spd*x_dir;
 	//phy_speed_y += spd*y_dir;
-	physics_apply_local_force(0, 0, 1000*x_dir, 1000*y_dir);
+	
+	
+	if(x_dir < max_spd) physics_apply_local_force(0, 0, accel*x_dir, 0);
+	if(y_dir < max_spd) physics_apply_local_force(0, 0, 0, accel*y_dir);
 
 }
