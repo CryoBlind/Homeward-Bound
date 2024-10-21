@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":25,
+  "height":50,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"da3f8cdd-2cce-4dc8-bac4-5e3ef971cf1b","blendMode":0,"displayName":"default","isLocked":false,"name":"da3f8cdd-2cce-4dc8-bac4-5e3ef971cf1b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -42,7 +42,7 @@
     ],
     "top":0,
   },
-  "origin":4,
+  "origin":1,
   "parent":{
     "name":"Sprites",
     "path":"folders/Sprites.yy",
@@ -95,7 +95,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":12,
-    "yorigin":12,
+    "yorigin":0,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
