@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //Initialize Viewports
-/*view_enabled = true;
+view_enabled = true;
 view_visible[0] = true;
 
 zoomF = 1;

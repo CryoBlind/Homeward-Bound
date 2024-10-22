@@ -55,6 +55,8 @@ function scr_move_collide(){
 	
 	zoomF = clamp(zoomF + (zoomDir*factor), factor, 2);
 	
+	//3840/2160;  1920/1080
+	
 	lerpH = lerp(viewH, zoomF*2160, factor);
 	newH = clamp(lerpH, 0, room_height);
 	newW = newH * (3840/2160);
