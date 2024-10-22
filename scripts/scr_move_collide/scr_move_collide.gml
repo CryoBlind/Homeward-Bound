@@ -15,7 +15,16 @@ function scr_move_collide(){
 		y_dir = 0
 	}
 	
-		viewX = camera_get_view_x(view_camera[0]);
+	if place_meeting(x+spd*x_dir, y+spd*y_dir,par_players){
+		while !place_meeting(x+x_dir,y+y_dir,par_players){
+			x+=x_dir
+			y+=y_dir
+		}
+		x_dir = 0
+		y_dir = 0
+	}
+	
+	viewX = camera_get_view_x(view_camera[0]);
 	viewY = camera_get_view_y(view_camera[0]);
 	viewW = camera_get_view_width(view_camera[0]);
 	viewH = camera_get_view_height(view_camera[0]);
@@ -28,23 +37,23 @@ function scr_move_collide(){
 	
 	zoomF = 1;
 	factor = 0.2;
-	player1Pos = instance_place(x,y,obj_player1);
-	player2Pos = instance_place(x,y,obj_player2);
-	playerDistance = abs(player1Pos-player2Pos);
+	//player1Pos = instance_place(x,y,obj_player1);
+	//player2Pos = instance_place(x,y,obj_player2);
+	//playerDistance = abs(player1Pos-player2Pos);
 	
 	zoomDir = 0;
-	if(playerDistance >= 480){
+	/*if(playerDistance >= 3840){
 		zoomDir = -1;
 	}
-	else if(playerDistance < 480){
+	else if(playerDistance < 3840){
 		zoomDir = 1;
-	}
+	}*/
 	
 	zoomF = clamp(zoomF + (zoomDir*factor), factor, 2);
 	
-	lerpH = lerp(viewH, zoomF*270, factor);
+	lerpH = lerp(viewH, zoomF*2160, factor);
 	newH = clamp(lerpH, 0, room_height);
-	newW = newH * (480/270);
+	newW = newH * (3840/2160);
 	camera_set_view_size(view_camera[0], newW, newH);
 	
 	offsetX = newX - (newW - viewW)*0.5;
