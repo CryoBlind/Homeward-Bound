@@ -14,9 +14,8 @@
   "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
-
   "physicsDensity":1.0,
-  "physicsFriction":0.9,
+  "physicsFriction":0.0,
   "physicsGroup":1,
   "physicsKinematic":false,
   "physicsLinearDamping":10.0,

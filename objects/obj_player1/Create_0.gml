@@ -30,24 +30,24 @@ physics_joint_set_value(attach, phy_joint_frequency, 10);
 physics_joint_set_value(attach, phy_joint_reaction_force_x, 1_000_000_000);
 physics_joint_set_value(attach, phy_joint_reaction_force_y, 1_000_000_000);
 
-attach2 = physics_joint_revolute_create(next_rope, self, x, y, -1, -1, false, 0, 0, false, false);
-physics_joint_set_value(attach2, phy_joint_damping_ratio, 0);
-physics_joint_set_value(attach2, phy_joint_frequency, 10);
-physics_joint_set_value(attach2, phy_joint_reaction_force_x, 1_000_000_000);
-physics_joint_set_value(attach2, phy_joint_reaction_force_y, 1_000_000_000);
+//attach2 = physics_joint_revolute_create(next_rope, self, x, y, -1, -1, false, 0, 0, false, false);
+//physics_joint_set_value(attach2, phy_joint_damping_ratio, 0);
+//physics_joint_set_value(attach2, phy_joint_frequency, 10);
+//physics_joint_set_value(attach2, phy_joint_reaction_force_x, 1_000_000_000);
+//physics_joint_set_value(attach2, phy_joint_reaction_force_y, 1_000_000_000);
 
 with(next_rope){
 	parent = other.id;
 }
 
 repeat(20){
-	offset_y+=10
+	offset_y+=50
 	last_rope = next_rope;
 	next_rope = instance_create_layer(x, y+offset_y, layer_get_id("Rope"), obj_rope_segment);
 	
 	link = physics_joint_weld_create(last_rope, next_rope, next_rope.x, next_rope.y, 0, 20, 0, false);
-	physics_joint_set_value(link, phy_joint_reaction_force_x, 1_000_000_000);
-	physics_joint_set_value(link, phy_joint_reaction_force_y, 1_000_000_000);
+	physics_joint_set_value(link, phy_joint_reaction_force_x, 1_000_000_000_000);
+	physics_joint_set_value(link, phy_joint_reaction_force_y, 1_000_000_000_000);
 	
 //	link2 = physics_joint_weld_create(next_rope, last_rope, next_rope.x, next_rope.y, 0, 10, 0, false);
 //physics_joint_set_value(link2, phy_joint_reaction_force_x, 1_000_000_000);
@@ -59,21 +59,15 @@ repeat(20){
 	}
 }
 
-//offset_y+=256;
+offset_y+=50;
 last_rope = next_rope;
 next_rope = instance_create_layer(x, y+offset_y, layer_get_id("Interactive"), obj_player2);
 
 link = physics_joint_revolute_create(last_rope, next_rope, next_rope.x, next_rope.y, -1, -1, false, 0, 0, false, false);
-physics_joint_set_value(link, phy_joint_damping_ratio, 0);
+physics_joint_set_value(link, phy_joint_damping_ratio, 1);
 physics_joint_set_value(link, phy_joint_frequency, 10);
 physics_joint_set_value(link, phy_joint_reaction_force_x, 1_000_000_000);
 physics_joint_set_value(link, phy_joint_reaction_force_y, 1_000_000_000);
-
-link2 = physics_joint_revolute_create(next_rope, last_rope, last_rope.x, last_rope.y, -1, -1, false, 0, 0, false, false);
-physics_joint_set_value(link2, phy_joint_damping_ratio, 0);
-physics_joint_set_value(link2, phy_joint_frequency, 10);
-physics_joint_set_value(link2, phy_joint_reaction_force_x, 1_000_000_000);
-physics_joint_set_value(link2, phy_joint_reaction_force_y, 1_000_000_000);
 
 with(next_rope){
 	parent = other.last_rope;
