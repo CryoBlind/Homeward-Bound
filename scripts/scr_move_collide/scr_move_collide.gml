@@ -4,6 +4,8 @@ function scr_move_collide(){
 	//Set x direction
 	x_dir =  right - left;
 	y_dir = down - up;
+	
+	
 
 	//See if we're colliding with a wall
 	if place_meeting(x+spd*x_dir,y+spd*y_dir,par_wall){
@@ -37,10 +39,12 @@ function scr_move_collide(){
 	
 	zoomF = 1;
 	factor = 0.2;
+  
 	//player1Pos = instance_place(x,y,obj_player1);
 	//player2Pos = instance_place(x,y,obj_player2);
 	//playerDistance = abs(player1Pos-player2Pos);
 	
+
 	zoomDir = 0;
 	/*if(playerDistance >= 3840){
 		zoomDir = -1;
@@ -63,7 +67,11 @@ function scr_move_collide(){
 	camera_set_view_pos(view_camera[0], newX, newY);
 
 	//Apply Movement
-	phy_speed_x += spd*x_dir;
-	phy_speed_y += spd*y_dir;
+	//phy_speed_x += spd*x_dir;
+	//phy_speed_y += spd*y_dir;
+	
+	
+	if(x_dir < max_spd) physics_apply_local_force(0, 0, accel*x_dir, 0);
+	if(y_dir < max_spd) physics_apply_local_force(0, 0, 0, accel*y_dir);
 
 }
