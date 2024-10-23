@@ -40,14 +40,14 @@ with(next_rope){
 	parent = other.id;
 }
 
-repeat(20){
-	offset_y+=50
+repeat(30){
+	offset_y+=25
 	last_rope = next_rope;
 	next_rope = instance_create_layer(x, y+offset_y, layer_get_id("Rope"), obj_rope_segment);
 	
-	link = physics_joint_weld_create(last_rope, next_rope, next_rope.x, next_rope.y, 0, 20, 0, false);
-	physics_joint_set_value(link, phy_joint_reaction_force_x, 1_000_000_000_000);
-	physics_joint_set_value(link, phy_joint_reaction_force_y, 1_000_000_000_000);
+	link = physics_joint_weld_create(last_rope, next_rope, next_rope.x, next_rope.y, 0, 30, 1, false);
+	physics_joint_set_value(link, phy_joint_reaction_force_x, 1_000_000_000_000_000);
+	physics_joint_set_value(link, phy_joint_reaction_force_y, 1_000_000_000_000_000);
 	
 //	link2 = physics_joint_weld_create(next_rope, last_rope, next_rope.x, next_rope.y, 0, 10, 0, false);
 //physics_joint_set_value(link2, phy_joint_reaction_force_x, 1_000_000_000);
