@@ -11,11 +11,11 @@ if(activator != noone){
 }
 
 if(isEnabled) {
-	mask_index = startMask;
 	sprite_index = startSprite;
+	phy_active = true;
 }
 else {
-	mask_index = empty_sprite;
 	sprite_index = -1;
-	//physics_fixture_set_collision_group(fix_door, -1);
+	phy_active = false;
+	//physics_fixture_bind(fix_door_disabled, self);
 }

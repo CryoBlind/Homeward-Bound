@@ -4,6 +4,7 @@
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_door",
@@ -35,7 +36,10 @@
     {"$GMObjectProperty":"v1","%Name":"isEnabled","filters":[],"listItems":[],"multiselect":false,"name":"isEnabled","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"activator","filters":[
         "GMObject",
-      ],"listItems":[],"multiselect":false,"name":"activator","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"par_button","path":"objects/par_button/par_button.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"par_button","varType":5,},
+      ],"listItems":[
+        "Activator_1",
+        "Activator_2",
+      ],"multiselect":false,"name":"activator","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

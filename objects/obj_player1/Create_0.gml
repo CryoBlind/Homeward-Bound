@@ -40,7 +40,7 @@ with(next_rope){
 	parent = other.id;
 }
 
-repeat(30){
+repeat(20){
 	offset_y+=25
 	last_rope = next_rope;
 	next_rope = instance_create_layer(x, y+offset_y, layer_get_id("Rope"), obj_rope_segment);
