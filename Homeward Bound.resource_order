@@ -17,6 +17,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_dialogue_box","order":13,"path":"objects/obj_dialogue_box/obj_dialogue_box.yy",},
     {"name":"obj_door","order":10,"path":"objects/obj_door/obj_door.yy",},
     {"name":"obj_GameController","order":5,"path":"objects/obj_GameController/obj_GameController.yy",},
     {"name":"obj_goal","order":12,"path":"objects/obj_goal/obj_goal.yy",},
@@ -25,6 +26,7 @@
     {"name":"obj_player1","order":2,"path":"objects/obj_player1/obj_player1.yy",},
     {"name":"obj_player2","order":3,"path":"objects/obj_player2/obj_player2.yy",},
     {"name":"obj_rope_segment","order":4,"path":"objects/obj_rope_segment/obj_rope_segment.yy",},
+    {"name":"Object14","order":14,"path":"objects/Object14/Object14.yy",},
     {"name":"Object7","order":7,"path":"objects/Object7/Object7.yy",},
     {"name":"par_button","order":7,"path":"objects/par_button/par_button.yy",},
     {"name":"par_wall","order":1,"path":"objects/par_wall/par_wall.yy",},
@@ -48,6 +50,7 @@
     {"name":"Sprite17","order":13,"path":"sprites/Sprite17/Sprite17.yy",},
     {"name":"Sprite18","order":14,"path":"sprites/Sprite18/Sprite18.yy",},
     {"name":"Sprite19","order":15,"path":"sprites/Sprite19/Sprite19.yy",},
+    {"name":"Sprite23","order":18,"path":"sprites/Sprite23/Sprite23.yy",},
     {"name":"tiles2","order":16,"path":"sprites/tiles2/tiles2.yy",},
     {"name":"tiles27","order":17,"path":"sprites/tiles27/tiles27.yy",},
     {"name":"Wall1","order":4,"path":"sprites/Wall1/Wall1.yy",},

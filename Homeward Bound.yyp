@@ -34,6 +34,7 @@
   },
   "name":"Homeward Bound",
   "resources":[
+    {"id":{"name":"obj_dialogue_box","path":"objects/obj_dialogue_box/obj_dialogue_box.yy",},},
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
     {"id":{"name":"obj_GameController","path":"objects/obj_GameController/obj_GameController.yy",},},
     {"id":{"name":"obj_goal","path":"objects/obj_goal/obj_goal.yy",},},
@@ -42,6 +43,7 @@
     {"id":{"name":"obj_player1","path":"objects/obj_player1/obj_player1.yy",},},
     {"id":{"name":"obj_player2","path":"objects/obj_player2/obj_player2.yy",},},
     {"id":{"name":"obj_rope_segment","path":"objects/obj_rope_segment/obj_rope_segment.yy",},},
+    {"id":{"name":"Object14","path":"objects/Object14/Object14.yy",},},
     {"id":{"name":"Object7","path":"objects/Object7/Object7.yy",},},
     {"id":{"name":"par_button","path":"objects/par_button/par_button.yy",},},
     {"id":{"name":"par_players","path":"objects/par_players/par_players.yy",},},
@@ -70,6 +72,7 @@
     {"id":{"name":"Sprite17","path":"sprites/Sprite17/Sprite17.yy",},},
     {"id":{"name":"Sprite18","path":"sprites/Sprite18/Sprite18.yy",},},
     {"id":{"name":"Sprite19","path":"sprites/Sprite19/Sprite19.yy",},},
+    {"id":{"name":"Sprite23","path":"sprites/Sprite23/Sprite23.yy",},},
     {"id":{"name":"tiles2","path":"sprites/tiles2/tiles2.yy",},},
     {"id":{"name":"tiles27","path":"sprites/tiles27/tiles27.yy",},},
     {"id":{"name":"Wall1","path":"sprites/Wall1/Wall1.yy",},},
