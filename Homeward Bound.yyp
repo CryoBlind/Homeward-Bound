@@ -30,7 +30,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.0.169",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Homeward Bound",
   "resources":[
@@ -38,6 +38,7 @@
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
     {"id":{"name":"obj_GameController","path":"objects/obj_GameController/obj_GameController.yy",},},
     {"id":{"name":"obj_goal","path":"objects/obj_goal/obj_goal.yy",},},
+    {"id":{"name":"obj_knot","path":"objects/obj_knot/obj_knot.yy",},},
     {"id":{"name":"obj_P1Btn","path":"objects/obj_P1Btn/obj_P1Btn.yy",},},
     {"id":{"name":"obj_P2Btn","path":"objects/obj_P2Btn/obj_P2Btn.yy",},},
     {"id":{"name":"obj_player1","path":"objects/obj_player1/obj_player1.yy",},},
@@ -59,6 +60,7 @@
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},},
     {"id":{"name":"spr_goal","path":"sprites/spr_goal/spr_goal.yy",},},
+    {"id":{"name":"spr_knot","path":"sprites/spr_knot/spr_knot.yy",},},
     {"id":{"name":"spr_player1","path":"sprites/spr_player1/spr_player1.yy",},},
     {"id":{"name":"spr_player2","path":"sprites/spr_player2/spr_player2.yy",},},
     {"id":{"name":"spr_rope_segment","path":"sprites/spr_rope_segment/spr_rope_segment.yy",},},
