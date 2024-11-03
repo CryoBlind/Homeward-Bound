@@ -34,7 +34,9 @@
   },
   "name":"Homeward Bound",
   "resources":[
+    {"id":{"name":"fnt_Dialogue","path":"fonts/fnt_Dialogue/fnt_Dialogue.yy",},},
     {"id":{"name":"obj_dialogue_box","path":"objects/obj_dialogue_box/obj_dialogue_box.yy",},},
+    {"id":{"name":"obj_dialogue_trigger","path":"objects/obj_dialogue_trigger/obj_dialogue_trigger.yy",},},
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
     {"id":{"name":"obj_GameController","path":"objects/obj_GameController/obj_GameController.yy",},},
     {"id":{"name":"obj_goal","path":"objects/obj_goal/obj_goal.yy",},},
