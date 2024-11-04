@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"par_wall",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"par_wall",
   "overriddenProperties":[],
@@ -13,7 +15,7 @@
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.0,
-  "physicsFriction":1.0,
+  "physicsFriction":0.0,
   "physicsGroup":1,
   "physicsKinematic":false,
   "physicsLinearDamping":0.1,

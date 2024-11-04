@@ -1,12 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_door",
+  "%Name":"obj_pit",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"par_players","path":"objects/par_players/par_players.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_door",
+  "name":"obj_pit",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -26,9 +27,9 @@
   "physicsShape":1,
   "physicsShapePoints":[
     {"x":0.0,"y":0.0,},
-    {"x":64.0,"y":0.0,},
-    {"x":64.0,"y":64.0,},
-    {"x":0.0,"y":64.0,},
+    {"x":256.0,"y":0.0,},
+    {"x":256.0,"y":256.0,},
+    {"x":0.0,"y":256.0,},
   ],
   "physicsStartAwake":true,
   "properties":[
@@ -40,8 +41,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_door",
-    "path":"sprites/spr_door/spr_door.yy",
+    "name":"spr_pit",
+    "path":"sprites/spr_pit/spr_pit.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"par_players",
+  "%Name":"obj_roller",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"par_players",
+  "name":"obj_roller",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -14,9 +14,9 @@
   "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
-  "physicsDensity":1.0,
-  "physicsFriction":0.0,
-  "physicsGroup":1,
+  "physicsDensity":2000.0,
+  "physicsFriction":0.2,
+  "physicsGroup":-2,
   "physicsKinematic":false,
   "physicsLinearDamping":10.0,
   "physicsObject":true,
@@ -30,13 +30,14 @@
     {"x":0.0,"y":32.0,},
   ],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"player_atachment_type","filters":[],"listItems":[],"multiselect":false,"name":"player_atachment_type","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_roller",
+    "path":"sprites/spr_roller/spr_roller.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

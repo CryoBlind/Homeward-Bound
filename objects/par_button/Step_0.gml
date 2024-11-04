@@ -37,6 +37,7 @@ else {
 }
 
 if(amountToUpdateObject != 0 && shouldUpdateButton){
-	connectedObject.numButtonsPressed += amountToUpdateObject;
+	if(connectedObject1 != noone) connectedObject1.numButtonsPressed += amountToUpdateObject;
+	if(connectedObject2 != noone) connectedObject2.numButtonsPressed += amountToUpdateObject;
 	shouldUpdateButton = false;
 }

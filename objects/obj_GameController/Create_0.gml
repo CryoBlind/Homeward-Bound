@@ -1,5 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
+//set up global variables
+global.player1_var = -1;
+global.player2_var = -1;
+global.rope_array = array_create(0);
+global.knot = -1;
+global.rope_strain = 0;
+
+
 
 //Initialize Viewports
 view_enabled = true;
