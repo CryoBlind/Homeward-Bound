@@ -29,6 +29,9 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"isToggleable","filters":[],"listItems":[],"multiselect":false,"name":"isToggleable","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"isActivated","filters":[],"listItems":[],"multiselect":false,"name":"isActivated","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"connectedObject","filters":[
+        "GMObject",
+      ],"listItems":[],"multiselect":false,"name":"connectedObject","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_door","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

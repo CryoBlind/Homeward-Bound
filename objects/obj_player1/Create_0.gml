@@ -17,7 +17,7 @@ drag = 20_000;
 phy_fixed_rotation = true;
 
 
-scr__create_rope(60, 0, 2);
+//scr_create_rope(60, 0, 2);
 ///one rope joint test
 //host = self;
 //next_player = instance_create_layer(x, y+200, layer_get_id("Interactables"), obj_player2);
