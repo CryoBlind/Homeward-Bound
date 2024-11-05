@@ -29,3 +29,6 @@ var xpos = (dwidth/2)-3840;
 var ypos = (dheight/2)-2160;
 window_set_rectangle(xpos,ypos,3840,2160);
 surface_resize(application_surface, 3840,2160);
+
+//Creates our HUD, needed for the draw events for our GUI
+layer_sequence_create("Instances", 0, 0, seq_game_hud);
