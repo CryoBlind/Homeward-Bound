@@ -55,7 +55,7 @@
     {"id":{"name":"par_button","path":"objects/par_button/par_button.yy",},},
     {"id":{"name":"par_players","path":"objects/par_players/par_players.yy",},},
     {"id":{"name":"par_wall","path":"objects/par_wall/par_wall.yy",},},
-    {"id":{"name":"Baggage","path":"rooms/Baggage/Baggage.yy",},},
+    {"id":{"name":"Room_Bag","path":"rooms/Room_Bag/Room_Bag.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"scr_change_rope_types","path":"scripts/scr_change_rope_types/scr_change_rope_types.yy",},},
@@ -99,8 +99,8 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room_Bag","path":"rooms/Room_Bag/Room_Bag.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
-    {"roomId":{"name":"Baggage","path":"rooms/Baggage/Baggage.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
