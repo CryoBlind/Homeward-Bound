@@ -31,7 +31,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.0.169",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Homeward Bound",
   "resources":[
@@ -60,7 +60,6 @@
     {"id":{"name":"par_players","path":"objects/par_players/par_players.yy",},},
     {"id":{"name":"par_wall","path":"objects/par_wall/par_wall.yy",},},
     {"id":{"name":"Room_Bag","path":"rooms/Room_Bag/Room_Bag.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"scr_change_rope_types","path":"scripts/scr_change_rope_types/scr_change_rope_types.yy",},},
     {"id":{"name":"scr_create_rope","path":"scripts/scr_create_rope/scr_create_rope.yy",},},
@@ -103,7 +102,6 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room_Bag","path":"rooms/Room_Bag/Room_Bag.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
