@@ -36,6 +36,7 @@
     {"name":"Object7","order":7,"path":"objects/Object7/Object7.yy",},
     {"name":"par_button","order":7,"path":"objects/par_button/par_button.yy",},
     {"name":"par_wall","order":1,"path":"objects/par_wall/par_wall.yy",},
+    {"name":"Baggage","order":3,"path":"rooms/Baggage/Baggage.yy",},
     {"name":"Room2","order":2,"path":"rooms/Room2/Room2.yy",},
     {"name":"scr_change_rope_types","order":5,"path":"scripts/scr_change_rope_types/scr_change_rope_types.yy",},
     {"name":"scr_create_rope","order":3,"path":"scripts/scr_create_rope/scr_create_rope.yy",},
