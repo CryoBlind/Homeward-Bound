@@ -4,7 +4,7 @@ function scr_create_rope(numSegments, ropeTypePlayer1, ropeTypePlayer2, player1)
 	global.rope_array = array_create(numSegments, noone);
 	
 	ropeType = ropeTypePlayer1;
-	offset_y = 1;
+	offset_y = 0;
 	host = player1
 	next_rope = instance_create_layer(host.x, host.y+offset_y, layer_get_id("Rope"), obj_rope_segment)
 	global.rope_array[0] = next_rope.id;
@@ -54,7 +54,9 @@ function scr_create_rope(numSegments, ropeTypePlayer1, ropeTypePlayer2, player1)
 			link = physics_joint_weld_create(last_rope, next_rope, next_rope.x, next_rope.y, 0, 40, 1, false);
 		}
 		else if(ropeType == 2){ //avoidant case.  weakens when close?
-			link = physics_joint_weld_create(last_rope, next_rope, next_rope.x, next_rope.y, 0, 40, 30, false);
+			link = physics_joint_revolute_create(last_rope, next_rope, next_rope.x, next_rope.y, 0, 5, false, 0, 0, false, false);
+			physics_joint_set_value(link, phy_joint_damping_ratio, 30);
+			physics_joint_set_value(link, phy_joint_frequency, 40);
 		}
 		else{ //disorganized case
 			link = physics_joint_rope_create(last_rope, next_rope, last_rope.x, last_rope.y + offset_y, next_rope.x, next_rope.y, 0, false);
