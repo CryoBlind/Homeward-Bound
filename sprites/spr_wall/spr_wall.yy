@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"spr_wall",
-  "bboxMode":0,
-  "bbox_bottom":255,
+  "bboxMode":2,
+  "bbox_bottom":256,
   "bbox_left":0,
-  "bbox_right":255,
+  "bbox_right":256,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,

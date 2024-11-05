@@ -11,8 +11,8 @@ function scr_create_rope(numSegments, ropeTypePlayer1, ropeTypePlayer2, player1)
 	attach = physics_joint_revolute_create(host, next_rope, host.x, host.y, -1, -1, false, 0, 0, false, false);
 	physics_joint_set_value(attach, phy_joint_damping_ratio, 0);
 	physics_joint_set_value(attach, phy_joint_frequency, 40);
-	physics_joint_set_value(attach, phy_joint_reaction_force_x, 1_000_000_000_000_000_000);
-	physics_joint_set_value(attach, phy_joint_reaction_force_y, 1_000_000_000_000_000_000);
+	physics_joint_set_value(attach, phy_joint_reaction_force_x, 2_000_000_000_000_000_000);
+	physics_joint_set_value(attach, phy_joint_reaction_force_y, 2_000_000_000_000_000_000);
 	
 	with(next_rope){
 		parent = other.id;
@@ -34,8 +34,8 @@ function scr_create_rope(numSegments, ropeTypePlayer1, ropeTypePlayer2, player1)
 			attach_knot = physics_joint_revolute_create(last_rope, knot, host.x, host.y + offset_y, -1, -1, false, 0, 0, false, false);
 			physics_joint_set_value(attach_knot, phy_joint_damping_ratio, 0);
 			physics_joint_set_value(attach_knot, phy_joint_frequency, 40);
-			physics_joint_set_value(attach_knot, phy_joint_reaction_force_x, 1_000_000_000_000_000_000);
-			physics_joint_set_value(attach_knot, phy_joint_reaction_force_y, 1_000_000_000_000_000_000);
+			physics_joint_set_value(attach_knot, phy_joint_reaction_force_x, 2_000_000_000_000_000_000);
+			physics_joint_set_value(attach_knot, phy_joint_reaction_force_y, 2_000_000_000_000_000_000);
 			//last_rope = knot;
 			global.knot = knot;
 			underHalfWay = false;
@@ -60,8 +60,8 @@ function scr_create_rope(numSegments, ropeTypePlayer1, ropeTypePlayer2, player1)
 			link = physics_joint_rope_create(last_rope, next_rope, last_rope.x, last_rope.y + offset_y, next_rope.x, next_rope.y, 0, false);
 		}
 	
-		physics_joint_set_value(link, phy_joint_reaction_force_x, 1_000_000_000_000_000_000);
-		physics_joint_set_value(link, phy_joint_reaction_force_y, 1_000_000_000_000_000_000);
+		physics_joint_set_value(link, phy_joint_reaction_force_x, 2_000_000_000_000_000_000);
+		physics_joint_set_value(link, phy_joint_reaction_force_y, 2_000_000_000_000_000_000);
 
 	
 		with(next_rope){

@@ -10,8 +10,10 @@ down = 0;
 //For force-based movement
 x_spd = 0;
 y_spd = 0;
-accel = 100_000;
+accel = 200_000;
 max_spd = 50;
-drag = 20000;
+drag = 20_000;
 
 phy_fixed_rotation = true;
+
+joint_with_next_rope = -1;

@@ -6,26 +6,6 @@ function scr_move_collide(){
 	y_dir = down - up;
 	
 	
-
-	//See if we're colliding with a wall
-	if place_meeting(x+spd*x_dir,y+spd*y_dir,par_wall){
-		while !place_meeting(x+x_dir,y+y_dir,par_wall){
-			x+=x_dir
-			y+=y_dir
-		}
-		x_dir = 0
-		y_dir = 0
-	}
-	
-	if place_meeting(x+spd*x_dir, y+spd*y_dir,par_players){
-		while !place_meeting(x+x_dir,y+y_dir,par_players){
-			x+=x_dir
-			y+=y_dir
-		}
-		x_dir = 0
-		y_dir = 0
-	}
-	
 	viewX = camera_get_view_x(view_camera[0]);
 	viewY = camera_get_view_y(view_camera[0]);
 	viewW = camera_get_view_width(view_camera[0]);
