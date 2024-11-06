@@ -13,10 +13,21 @@ function create_roller(roller_x, roller_y) {
 	}
 }
 
+function apply_rotation_x(rotate_x, rotate_y){
+	toReturn = x + cos(-degtorad(image_angle)) * (rotate_x-x) - sin(-degtorad(image_angle)) * (rotate_y-y);
+	return toReturn;
+}
+function apply_rotation_y(rotate_x, rotate_y){
+	toReturn = y + sin(-degtorad(image_angle)) * (rotate_x-x) + cos(-degtorad(image_angle)) * (rotate_y-y)
+	return toReturn;
+	
+}
 
-create_roller(x, y);
-create_roller(x + image_xscale * 256, y);
-create_roller(x, y + image_yscale * 256);
-create_roller(x + image_xscale * 256, y + image_yscale * 256);
+width = image_xscale * 256
+height = image_yscale * 256
+create_roller(apply_rotation_x(x, y), apply_rotation_y(x, y));
+create_roller(apply_rotation_x(x + width, y), apply_rotation_y(x + width, y));
+create_roller(apply_rotation_x(x, y + height), apply_rotation_y(x, y + height));
+create_roller(apply_rotation_x(x + width, y + height), apply_rotation_y(x + width, y + height));
 
 

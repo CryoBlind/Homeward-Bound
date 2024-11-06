@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_rope_segment",
   "bboxMode":2,
-  "bbox_bottom":11,
+  "bbox_bottom":29,
   "bbox_left":0,
   "bbox_right":11,
   "bbox_top":0,
