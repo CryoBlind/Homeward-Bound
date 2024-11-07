@@ -2,6 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_create_rope(numSegments, ropeTypePlayer1, ropeTypePlayer2, player1){
 	global.rope_array = array_create(numSegments, noone);
+	global.max_tolerable_rope_length = numSegments * 12
 	
 	ropeType = ropeTypePlayer1;
 	offset_y = 0;

@@ -7,12 +7,12 @@ global.rope_array = array_create(0);
 global.knot = -1;
 global.rope_strain = 0;
 global.in_dialogue = false;
-global.current_dialogue_parameters = 
-{
+global.current_dialogue_parameters = {
 	p1Opt : "p1 Text",
 	p2Opt : "p2 Text",
 	text : "some random dialogue"
 };
+global.max_tolerable_rope_length = 0;
 
 //Initialize Viewports
 view_enabled = true;
