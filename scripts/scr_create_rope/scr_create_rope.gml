@@ -16,7 +16,7 @@ function scr_create_rope(numSegments, ropeTypePlayer1, ropeTypePlayer2, player1)
 	physics_joint_set_value(attach, phy_joint_reaction_force_y, 2_000_000_000_000_000_000);
 	
 	with(next_rope){
-		parent = other.id;
+		parent = other.host;
 	}
 	with(host){
 		joint_with_next_rope = other.attach;
