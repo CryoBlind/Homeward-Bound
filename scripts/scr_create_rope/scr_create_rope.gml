@@ -2,12 +2,12 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_create_rope(numSegments, ropeTypePlayer1, ropeTypePlayer2, player1){
 	global.rope_array = array_create(numSegments, noone);
-	global.max_tolerable_rope_length = numSegments * 12
+	global.max_tolerable_rope_length = numSegments * 47
 	
 	ropeType = ropeTypePlayer1;
 	offset_y = 0;
 	host = player1
-	next_rope = instance_create_layer(host.x, host.y+offset_y, layer_get_id("Rope"), obj_rope_segment)
+	next_rope = instance_create_layer(host.x, host.y+offset_y, layer_get_id("Rope"), obj_rope_segment_anxious)
 	global.rope_array[0] = next_rope.id;
 	attach = physics_joint_revolute_create(host, next_rope, host.x, host.y, -1, -1, false, 0, 0, false, false);
 	physics_joint_set_value(attach, phy_joint_damping_ratio, 0);
@@ -27,7 +27,7 @@ function scr_create_rope(numSegments, ropeTypePlayer1, ropeTypePlayer2, player1)
 		if(i < numSegments/2) ropeType = ropeTypePlayer1;
 		else ropeType = ropeTypePlayer2;
 	
-		offset_y+=12
+		offset_y+=48
 		last_rope = next_rope;
 	
 		if(abs(numSegments/2 - i) < 1) { //create knot
@@ -43,7 +43,7 @@ function scr_create_rope(numSegments, ropeTypePlayer1, ropeTypePlayer2, player1)
 			//lastConnectionWasKnot = true;
 		}
 	
-		next_rope = instance_create_layer(host.x, host.y+offset_y, layer_get_id("Rope"), obj_rope_segment);
+		next_rope = instance_create_layer(host.x, host.y+offset_y, layer_get_id("Rope"), obj_rope_segment_anxious);
 		global.rope_array[i] = next_rope.id;
 		
 		if(ropeType == 0){ //secure case

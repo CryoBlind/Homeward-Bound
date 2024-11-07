@@ -14,6 +14,7 @@ global.current_dialogue_parameters = {
 };
 global.max_tolerable_rope_length = 0;
 global.current_player_spawner = noone;
+global.direct_player_joint = -1;
 
 //Initialize Viewports
 view_enabled = true;
