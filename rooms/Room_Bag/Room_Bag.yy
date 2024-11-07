@@ -43,6 +43,8 @@
     {"name":"inst_1B1C4135","path":"rooms/Room_Bag/Room_Bag.yy",},
     {"name":"inst_5317C90E","path":"rooms/Room_Bag/Room_Bag.yy",},
     {"name":"inst_6F8F0685","path":"rooms/Room_Bag/Room_Bag.yy",},
+    {"name":"inst_7C775E60","path":"rooms/Room_Bag/Room_Bag.yy",},
+    {"name":"inst_3A68DD26","path":"rooms/Room_Bag/Room_Bag.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -86,6 +88,10 @@
         {"$GMRInstance":"v1","%Name":"inst_6F8F0685","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6F8F0685","objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"propertyId":{"name":"numButtonsRequired","path":"objects/obj_door/obj_door.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":90.0,"scaleX":1.5,"scaleY":6.0,"x":4992.0,"y":1216.0,},
+        {"$GMRInstance":"v1","%Name":"inst_7C775E60","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7C775E60","objectId":{"name":"obj_boxSpawner","path":"objects/obj_boxSpawner/obj_boxSpawner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":3232.0,},
+        {"$GMRInstance":"v1","%Name":"inst_3A68DD26","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3A68DD26","objectId":{"name":"par_button","path":"objects/par_button/par_button.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_button","path":"objects/par_button/par_button.yy",},"propertyId":{"name":"connectedObject1","path":"objects/par_button/par_button.yy",},"resource":{"name":"inst_7C775E60","path":"rooms/Room_Bag/Room_Bag.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"inst_7C775E60",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":2816.0,},
       ],"layers":[],"name":"Interactive","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[],"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_1","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Walls","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
