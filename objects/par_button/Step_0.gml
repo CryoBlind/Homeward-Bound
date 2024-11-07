@@ -10,7 +10,7 @@
 //	touchedPlayerLastStep = false;
 //}
 
-if place_meeting(x, y,par_players) {
+if (place_meeting(x, y, par_players) || place_meeting(x, y, obj_box)){
 	if(isToggleable && !touchedPlayerLastStep){ //toggleable case
 		isActivated = !isActivated;
 		
