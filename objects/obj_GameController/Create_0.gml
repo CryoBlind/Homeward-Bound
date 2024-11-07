@@ -13,6 +13,7 @@ global.current_dialogue_parameters = {
 	text : "some random dialogue"
 };
 global.max_tolerable_rope_length = 0;
+global.current_player_spawner = noone;
 
 //Initialize Viewports
 view_enabled = true;
