@@ -3,4 +3,5 @@
 // Close the dialogue box when Enter is pressed
 // Close the dialogue box when Enter is pressed
 
-dialogue_text = "Welcome to the world of emotions"; // Customize the dialogue here
+//dialogue_text = "Welcome to the world of emotions"; // Customize the dialogue here
+global.in_dialogue = true;

@@ -6,6 +6,7 @@ spd = 25;
 
 up = 0;
 down = 0;
+space_pressed = false;
 
 //For force-based movement
 x_spd = 0;

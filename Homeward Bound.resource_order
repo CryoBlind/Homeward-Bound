@@ -19,6 +19,7 @@
     {"name":"spr_box","order":3,"path":"sprites/spr_box/spr_box.yy",},
     {"name":"spr_boxSpawner","order":4,"path":"sprites/spr_boxSpawner/spr_boxSpawner.yy",},
     {"name":"spr_button","order":20,"path":"sprites/spr_button/spr_button.yy",},
+    {"name":"spr_dialogueTrigger","order":5,"path":"sprites/spr_dialogueTrigger/spr_dialogueTrigger.yy",},
     {"name":"spr_door","order":17,"path":"sprites/spr_door/spr_door.yy",},
     {"name":"spr_goal","order":6,"path":"sprites/spr_goal/spr_goal.yy",},
     {"name":"spr_MenuButton","order":1,"path":"sprites/spr_MenuButton/spr_MenuButton.yy",},

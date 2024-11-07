@@ -87,6 +87,7 @@
     {"id":{"name":"spr_boxSpawner","path":"sprites/spr_boxSpawner/spr_boxSpawner.yy",},},
     {"id":{"name":"spr_bridge","path":"sprites/spr_bridge/spr_bridge.yy",},},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
+    {"id":{"name":"spr_dialogueTrigger","path":"sprites/spr_dialogueTrigger/spr_dialogueTrigger.yy",},},
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},},
     {"id":{"name":"spr_goal","path":"sprites/spr_goal/spr_goal.yy",},},
     {"id":{"name":"spr_knot","path":"sprites/spr_knot/spr_knot.yy",},},

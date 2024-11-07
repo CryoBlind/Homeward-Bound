@@ -5,4 +5,4 @@
 scr_input2();
 
 //Move the player
-scr_move_collide();
+if(!global.in_dialogue) scr_move_collide();

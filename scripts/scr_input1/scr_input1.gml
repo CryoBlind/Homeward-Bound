@@ -8,6 +8,8 @@ function scr_input1(){
 	up = keyboard_check(ord("W"))
 	down = keyboard_check(ord("S"))
 	
+	space_pressed = keyboard_check_pressed(vk_space);
+	
 	//Utility
 	if keyboard_check_pressed(vk_escape) game_end();
 	
