@@ -48,7 +48,7 @@ function scr_change_rope_types(new_type_player1, new_type_player2){
 			else if(new_type_player2 == 1){ //anxious case
 				link = physics_joint_weld_create(last_rope, next_rope, physics_joint_get_value(oldLink, phy_joint_anchor_1_x), physics_joint_get_value(oldLink, phy_joint_anchor_1_y), 0, 40, 1, false);
 			}
-			else if(new_type_player2 == 2){ //avoidant case.  weakens when close?
+			else if(new_type_player2 == 2){ //avoidant case.  weakens when too close?
 				link = physics_joint_weld_create(last_rope, next_rope, physics_joint_get_value(oldLink, phy_joint_anchor_1_x), physics_joint_get_value(oldLink, phy_joint_anchor_1_y), 0, 40, 30, false);
 			}
 			else{ //disorganized case

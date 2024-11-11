@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_rope_segment",
-    "path":"sprites/spr_rope_segment/spr_rope_segment.yy",
+    "name":"spr_rope_segment_anxious",
+    "path":"sprites/spr_rope_segment_anxious/spr_rope_segment_anxious.yy",
   },
   "spriteMaskId":null,
   "visible":true,

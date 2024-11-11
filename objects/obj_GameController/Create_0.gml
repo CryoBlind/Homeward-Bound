@@ -13,8 +13,16 @@ global.current_dialogue_parameters = {
 	text : "some random dialogue"
 };
 global.max_tolerable_rope_length = 0;
+global.current_rope_length = 0;
+global.rope_is_strained = false;
 global.current_player_spawner = noone;
 global.direct_player_joint = -1;
+enum ATTACHMENT_STYLE {
+	SECURE = 0,
+	ANXIOUS = 1,
+	AVOIDANT = 2,
+	DISORGANIZED = 3
+};
 
 //Initialize Viewports
 view_enabled = true;
