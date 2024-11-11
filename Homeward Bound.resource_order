@@ -46,6 +46,8 @@
     {"name":"Sprite19","order":7,"path":"sprites/Sprite19/Sprite19.yy",},
     {"name":"Sprite29","order":1,"path":"sprites/Sprite29/Sprite29.yy",},
     {"name":"Sprite30","order":2,"path":"sprites/Sprite30/Sprite30.yy",},
+    {"name":"sprTriangleIdle","order":27,"path":"sprites/sprTriangleIdle/sprTriangleIdle.yy",},
+    {"name":"sprTriangleRun","order":28,"path":"sprites/sprTriangleRun/sprTriangleRun.yy",},
     {"name":"Wall1","order":1,"path":"sprites/Wall1/Wall1.yy",},
     {"name":"Wall2","order":3,"path":"sprites/Wall2/Wall2.yy",},
   ],

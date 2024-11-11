@@ -119,6 +119,8 @@
     {"id":{"name":"Sprite23","path":"sprites/Sprite23/Sprite23.yy",},},
     {"id":{"name":"Sprite29","path":"sprites/Sprite29/Sprite29.yy",},},
     {"id":{"name":"Sprite30","path":"sprites/Sprite30/Sprite30.yy",},},
+    {"id":{"name":"sprTriangleIdle","path":"sprites/sprTriangleIdle/sprTriangleIdle.yy",},},
+    {"id":{"name":"sprTriangleRun","path":"sprites/sprTriangleRun/sprTriangleRun.yy",},},
     {"id":{"name":"tiles2","path":"sprites/tiles2/tiles2.yy",},},
     {"id":{"name":"tiles27","path":"sprites/tiles27/tiles27.yy",},},
     {"id":{"name":"Wall1","path":"sprites/Wall1/Wall1.yy",},},
