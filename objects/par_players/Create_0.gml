@@ -52,6 +52,8 @@ stopped_sprite = -1;
 moving_sprite = -1;
 current_type = player_attachment_type;
 
+stepsCount = 0;
+
 //For force-based movement
 x_spd = 0;
 y_spd = 0;

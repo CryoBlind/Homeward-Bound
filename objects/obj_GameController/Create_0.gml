@@ -10,7 +10,8 @@ global.in_dialogue = false;
 global.current_dialogue_parameters = {
 	p1Opt : "p1 Text",
 	p2Opt : "p2 Text",
-	text : "some random dialogue"
+	text : "some random dialogue",
+	forced : false
 };
 global.max_tolerable_rope_length = 0;
 global.min_tolerable_distance = 0;
@@ -19,6 +20,8 @@ global.rope_is_strained = false;
 global.current_player_spawner = noone;
 global.direct_player_joint = -1;
 global.interaction_dialogue_allowed = true;
+global.strain_failure_counter = 0;
+global.strain_failure_value = 30;
 enum ATTACHMENT_STYLE {
 	SECURE = 0,
 	ANXIOUS = 1,

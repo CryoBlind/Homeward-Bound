@@ -1,7 +1,7 @@
 {
   "$GMSprite":"",
   "%Name":"spr_player1_anxious_running",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":463,
   "bbox_left":13,
   "bbox_right":400,

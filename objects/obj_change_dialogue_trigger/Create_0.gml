@@ -11,4 +11,5 @@ dialogue_parameters =
 	p1Opt : p1Options,
 	p2Opt : p2Options,
 	text : dialogue_text,
+	forced : false
 };
