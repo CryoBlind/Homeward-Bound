@@ -55,13 +55,25 @@ function scr_move_collide(){
 	
 	if(x_dir < max_spd) physics_apply_local_force(0, 0, accel*x_dir, 0);
 	if(y_dir < max_spd) physics_apply_local_force(0, 0, 0, accel*y_dir);
-	var _x_power = global.player1_var.x - global.player2_var.x
-	var _y_power = global.player1_var.y - global.player2_var.y
-	var _dist_from_other_player = sqrt(power(_x_power, 2) + power(_y_power, 2));
-	var _max_push = 200_000;
 	
-	if(current_type == ATTACHMENT_STYLE.AVOIDANT && _dist_from_other_player <= global.min_tolerable_distance){
-		physics_apply_local_force(0, 0, clamp((300/(_x_power)) * _max_push, -_max_push, _max_push), clamp((300/(_y_power)) * _max_push, -_max_push, _max_push));
+	if(object_index == obj_player1.object_index){ // player 1 case
+		var _x_power = global.player1_var.x - global.player2_var.x
+		var _y_power = global.player1_var.y - global.player2_var.y
+		var _dist_from_other_player = sqrt(power(_x_power, 2) + power(_y_power, 2));
+		var _max_push = 200_000;
+	
+		if(current_type == ATTACHMENT_STYLE.AVOIDANT && _dist_from_other_player <= global.min_tolerable_distance){
+			physics_apply_local_force(0, 0, clamp((300/(_x_power)) * _max_push, -_max_push, _max_push), clamp((300/(_y_power)) * _max_push, -_max_push, _max_push));
+		}
 	}
-
+	else { //player 2 case
+		var _x_power = global.player2_var.x - global.player1_var.x
+		var _y_power = global.player2_var.y - global.player1_var.y
+		var _dist_from_other_player = sqrt(power(_x_power, 2) + power(_y_power, 2));
+		var _max_push = 200_000;
+	
+		if(current_type == ATTACHMENT_STYLE.AVOIDANT && _dist_from_other_player <= global.min_tolerable_distance){
+			physics_apply_local_force(0, 0, clamp((300/(_x_power)) * _max_push, -_max_push, _max_push), clamp((300/(_y_power)) * _max_push, -_max_push, _max_push));
+		}
+	}
 }
