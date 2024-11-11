@@ -37,5 +37,5 @@
     "path":"sprites/spr_roller/spr_roller.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

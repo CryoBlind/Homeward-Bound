@@ -1,5 +1,6 @@
 {
   "FolderOrderSettings":[
+    {"name":"Dialogue","order":6,"path":"folders/Objects/Dialogue.yy",},
     {"name":"UI","order":1,"path":"folders/Objects/UI.yy",},
     {"name":"MenuSprites","order":24,"path":"folders/Sprites/MenuSprites.yy",},
   ],
@@ -8,6 +9,8 @@
     {"name":"obj_bagLevelButton","order":3,"path":"objects/obj_bagLevelButton/obj_bagLevelButton.yy",},
     {"name":"obj_box","order":2,"path":"objects/obj_box/obj_box.yy",},
     {"name":"obj_boxSpawner","order":3,"path":"objects/obj_boxSpawner/obj_boxSpawner.yy",},
+    {"name":"obj_dialogue_box","order":1,"path":"objects/obj_dialogue_box/obj_dialogue_box.yy",},
+    {"name":"obj_forced_dialogue_trigger","order":2,"path":"objects/obj_forced_dialogue_trigger/obj_forced_dialogue_trigger.yy",},
     {"name":"obj_hud_ropeStrength","order":1,"path":"objects/obj_hud_ropeStrength/obj_hud_ropeStrength.yy",},
     {"name":"obj_quitButton","order":5,"path":"objects/obj_quitButton/obj_quitButton.yy",},
     {"name":"obj_rope_segment","order":4,"path":"objects/obj_rope_segment/obj_rope_segment.yy",},
@@ -19,10 +22,12 @@
     {"name":"scr_delete_rope","order":1,"path":"scripts/scr_delete_rope/scr_delete_rope.yy",},
     {"name":"scr_respawn_players","order":2,"path":"scripts/scr_respawn_players/scr_respawn_players.yy",},
     {"name":"scr_spawn_players","order":3,"path":"scripts/scr_spawn_players/scr_spawn_players.yy",},
+    {"name":"scr_update_interaction_dialogue","order":4,"path":"scripts/scr_update_interaction_dialogue/scr_update_interaction_dialogue.yy",},
     {"name":"spr_backButton","order":2,"path":"sprites/spr_backButton/spr_backButton.yy",},
     {"name":"spr_box","order":3,"path":"sprites/spr_box/spr_box.yy",},
     {"name":"spr_boxSpawner","order":4,"path":"sprites/spr_boxSpawner/spr_boxSpawner.yy",},
     {"name":"spr_button","order":20,"path":"sprites/spr_button/spr_button.yy",},
+    {"name":"spr_changeDialogueTrigger","order":7,"path":"sprites/spr_changeDialogueTrigger/spr_changeDialogueTrigger.yy",},
     {"name":"spr_dialogueTrigger","order":5,"path":"sprites/spr_dialogueTrigger/spr_dialogueTrigger.yy",},
     {"name":"spr_door","order":17,"path":"sprites/spr_door/spr_door.yy",},
     {"name":"spr_goal","order":6,"path":"sprites/spr_goal/spr_goal.yy",},

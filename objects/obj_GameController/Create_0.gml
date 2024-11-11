@@ -17,6 +17,7 @@ global.current_rope_length = 0;
 global.rope_is_strained = false;
 global.current_player_spawner = noone;
 global.direct_player_joint = -1;
+global.interaction_dialogue_allowed = true;
 enum ATTACHMENT_STYLE {
 	SECURE = 0,
 	ANXIOUS = 1,
