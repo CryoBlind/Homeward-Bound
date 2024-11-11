@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"obj_pit",
+  "%Name":"obj_obstacle",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"par_players","path":"objects/par_players/par_players.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -8,7 +8,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_box","path":"objects/obj_box/obj_box.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_pit",
+  "name":"obj_obstacle",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -42,8 +42,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_pit",
-    "path":"sprites/spr_pit/spr_pit.yy",
+    "name":"spr_obstacle",
+    "path":"sprites/spr_obstacle/spr_obstacle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

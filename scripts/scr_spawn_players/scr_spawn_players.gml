@@ -12,7 +12,7 @@ function scr_spawn_players(spawner, rope_length, player1_type, player2_type){
 	global.player1_var.x = spawner.x;
 	global.player1_var.y = spawner.y - (rope_length * 48)/2;
 	global.player2_var.x = spawner.x;
-	global.player2_var._y = spawner.y + (rope_length * 48)/2;
+	global.player2_var.y = spawner.y + (rope_length * 48)/2;
 
 	last_rope = scr_create_rope(rope_length, player1_type, player2_type, global.player1_var);
 

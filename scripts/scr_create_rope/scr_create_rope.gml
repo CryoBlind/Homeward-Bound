@@ -4,6 +4,7 @@ function scr_create_rope(numSegments, ropeTypePlayer1, ropeTypePlayer2, player1)
 	rope_segment_size = 48;
 	global.rope_array = array_create(numSegments, noone);
 	global.max_tolerable_rope_length = numSegments * (rope_segment_size - 1);
+	global.min_tolerable_distance = (numSegments * rope_segment_size)/2;
 	
 	ropeType = ropeTypePlayer1;
 	offset_y = 0;
@@ -56,9 +57,7 @@ function scr_create_rope(numSegments, ropeTypePlayer1, ropeTypePlayer2, player1)
 			link = physics_joint_weld_create(last_rope, next_rope, next_rope.x, next_rope.y, 0, 40, 1, false);
 		}
 		else if(ropeType == ATTACHMENT_STYLE.AVOIDANT){ //avoidant case.  weakens when close?
-			link = physics_joint_revolute_create(last_rope, next_rope, next_rope.x, next_rope.y, 0, 5, false, 0, 0, false, false);
-			physics_joint_set_value(link, phy_joint_damping_ratio, 30);
-			physics_joint_set_value(link, phy_joint_frequency, 40);
+			link = physics_joint_weld_create(last_rope, next_rope, next_rope.x, next_rope.y, 0, 40, 1, false);
 		}
 		else if(ropeType = ATTACHMENT_STYLE.DISORGANIZED){ //disorganized case
 			link = physics_joint_rope_create(last_rope, next_rope, last_rope.x, last_rope.y + offset_y, next_rope.x, next_rope.y, 0, false);

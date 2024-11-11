@@ -13,6 +13,7 @@ global.current_dialogue_parameters = {
 	text : "some random dialogue"
 };
 global.max_tolerable_rope_length = 0;
+global.min_tolerable_distance = 0;
 global.current_rope_length = 0;
 global.rope_is_strained = false;
 global.current_player_spawner = noone;
