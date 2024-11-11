@@ -105,6 +105,8 @@
     {"id":{"name":"spr_rope_segment_anxious","path":"sprites/spr_rope_segment_anxious/spr_rope_segment_anxious.yy",},},
     {"id":{"name":"spr_rope_segment","path":"sprites/spr_rope_segment/spr_rope_segment.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
+    {"id":{"name":"sprCircleIdle","path":"sprites/sprCircleIdle/sprCircleIdle.yy",},},
+    {"id":{"name":"sprCircleRun","path":"sprites/sprCircleRun/sprCircleRun.yy",},},
     {"id":{"name":"Sprite11","path":"sprites/Sprite11/Sprite11.yy",},},
     {"id":{"name":"Sprite12","path":"sprites/Sprite12/Sprite12.yy",},},
     {"id":{"name":"Sprite13","path":"sprites/Sprite13/Sprite13.yy",},},

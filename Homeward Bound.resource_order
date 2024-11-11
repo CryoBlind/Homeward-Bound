@@ -34,6 +34,8 @@
     {"name":"spr_rope_segment_anxious","order":6,"path":"sprites/spr_rope_segment_anxious/spr_rope_segment_anxious.yy",},
     {"name":"spr_rope_segment","order":15,"path":"sprites/spr_rope_segment/spr_rope_segment.yy",},
     {"name":"spr_wall","order":14,"path":"sprites/spr_wall/spr_wall.yy",},
+    {"name":"sprCircleIdle","order":25,"path":"sprites/sprCircleIdle/sprCircleIdle.yy",},
+    {"name":"sprCircleRun","order":26,"path":"sprites/sprCircleRun/sprCircleRun.yy",},
     {"name":"Sprite11","order":21,"path":"sprites/Sprite11/Sprite11.yy",},
     {"name":"Sprite12","order":4,"path":"sprites/Sprite12/Sprite12.yy",},
     {"name":"Sprite13","order":11,"path":"sprites/Sprite13/Sprite13.yy",},
