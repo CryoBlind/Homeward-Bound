@@ -13,4 +13,4 @@ draw_set_font(fnt_HUD);
 
 // Draw the player's identity below(?) this instance
 draw_set_color(c_fuchsia)
-draw_text(x-88, y+70, string("Player 1"));
+draw_text(x, y+70, string("Player 1"));

@@ -34,7 +34,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"Homeward Bound",
   "resources":[
@@ -95,6 +95,7 @@
     {"id":{"name":"spr_bridge","path":"sprites/spr_bridge/spr_bridge.yy",},},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
     {"id":{"name":"spr_changeDialogueTrigger","path":"sprites/spr_changeDialogueTrigger/spr_changeDialogueTrigger.yy",},},
+    {"id":{"name":"spr_dialogueIndicator","path":"sprites/spr_dialogueIndicator/spr_dialogueIndicator.yy",},},
     {"id":{"name":"spr_dialogueTrigger","path":"sprites/spr_dialogueTrigger/spr_dialogueTrigger.yy",},},
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},},
     {"id":{"name":"spr_goal","path":"sprites/spr_goal/spr_goal.yy",},},

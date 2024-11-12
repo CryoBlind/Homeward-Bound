@@ -17,7 +17,7 @@ text_top_margin = 100;
 text_left_margin = 100;
 draw_set_color(c_white);
 draw_set_font(fnt_Dialogue); // Ensure you have your dialogue font set
-draw_text(text_left_margin + left_margin, text_top_margin + top_margin, text); // Adjust the text and position
-draw_text(text_left_margin + left_margin, text_top_margin + top_margin + 300, p1Opt); // Adjust the text and position
-draw_text(text_left_margin + left_margin + 700, text_top_margin + top_margin + 300, p2Opt); // Adjust the text and position
+draw_text(view_wport/2, text_top_margin + top_margin, text); // Adjust the text and position
+draw_text(view_wport/2 - (text_left_margin + left_margin), text_top_margin + top_margin + 300, p1Opt); // Adjust the text and position
+draw_text(view_wport/2 + (text_left_margin + left_margin), text_top_margin + top_margin + 300, p2Opt); // Adjust the text and position
 
