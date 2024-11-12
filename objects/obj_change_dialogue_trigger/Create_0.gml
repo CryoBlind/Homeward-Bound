@@ -8,8 +8,11 @@ dialogue_triggered = false; // Track if the dialogue has already been triggered
 
 dialogue_parameters = 
 {
-	p1Opt : p1Options,
-	p2Opt : p2Options,
+	otherOpt1 : opt1,
+	otherOpt2 : opt2,
+	otherOpt3 : opt3,
+	otherOpt4 : opt4,
 	text : dialogue_text,
-	forced : false
+	forced : false,
+	player_that_initiated : player_to_change
 };

@@ -2,7 +2,7 @@
 // You can write your code in this editor
 is_moving = left || right || up || down;
 
-if(is_moving){
+if(is_moving && !global.in_dialogue){
 	sprite_index = moving_sprite;
 	if(left) image_xscale = abs(image_xscale) * -1;
 	if(right) image_xscale = abs(image_xscale);

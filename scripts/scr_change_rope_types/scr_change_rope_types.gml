@@ -1,6 +1,9 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_change_rope_types(new_type_player1, new_type_player2){
+	/**
+				CURRENTLY BROKEN/NOT IMPLEMENTED
+	**/
 	global.player1_var.player_atachment_type = new_type_player1;
 	global.player2_var.player_atachment_type = new_type_player2;
 	

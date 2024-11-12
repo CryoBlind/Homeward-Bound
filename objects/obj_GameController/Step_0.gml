@@ -21,3 +21,8 @@ if(global.rope_strain > 99) global.strain_failure_counter = clamp(global.strain_
 else global.strain_failure_counter = 0;
 
 if(global.strain_failure_counter >= global.strain_failure_value) scr_respawn_players(global.current_player_spawner);
+
+if(!global.can_initiate_dialogue && !global.in_dialogue){
+	if(global.dialogue_cooldown <= 0) global.can_initiate_dialogue = true;
+	else global.dialogue_cooldown--;
+}

@@ -7,11 +7,23 @@ global.rope_array = array_create(0);
 global.knot = -1;
 global.rope_strain = 0;
 global.in_dialogue = false;
-global.current_dialogue_parameters = {
-	p1Opt : "p1 Text",
-	p2Opt : "p2 Text",
-	text : "some random dialogue",
-	forced : false
+global.current_player1_dialogue_parameters = {
+	text : "some random dialogue P1",
+	otherOpt1: "1",
+	otherOpt2: "2",
+	otherOpt3: "3",
+	otherOpt4: "4",
+	forced : false,
+	player_that_initiated : 1
+};
+global.current_player2_dialogue_parameters = {
+	text : "some random dialogue P2",
+	otherOpt1: "1",
+	otherOpt2: "2",
+	otherOpt3: "3",
+	otherOpt4: "4",
+	forced : false,
+	player_that_initiated : 2
 };
 global.max_tolerable_rope_length = 0;
 global.min_tolerable_distance = 0;
@@ -19,7 +31,9 @@ global.current_rope_length = 0;
 global.rope_is_strained = false;
 global.current_player_spawner = noone;
 global.direct_player_joint = -1;
-global.interaction_dialogue_allowed = true;
+global.player1_interaction_dialogue_allowed = true;
+global.player2_interaction_dialogue_allowed = true;
+global.can_initiate_dialogue = true;
 global.strain_failure_counter = 0;
 global.strain_failure_value = 30;
 enum ATTACHMENT_STYLE {
