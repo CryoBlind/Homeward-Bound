@@ -94,6 +94,8 @@
     {"id":{"name":"spr_box","path":"sprites/spr_box/spr_box.yy",},},
     {"id":{"name":"spr_boxSpawner","path":"sprites/spr_boxSpawner/spr_boxSpawner.yy",},},
     {"id":{"name":"spr_bridge","path":"sprites/spr_bridge/spr_bridge.yy",},},
+    {"id":{"name":"spr_button_off","path":"sprites/spr_button_off/spr_button_off.yy",},},
+    {"id":{"name":"spr_button_on","path":"sprites/spr_button_on/spr_button_on.yy",},},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
     {"id":{"name":"spr_changeDialogueTrigger","path":"sprites/spr_changeDialogueTrigger/spr_changeDialogueTrigger.yy",},},
     {"id":{"name":"spr_dialogueIndicator","path":"sprites/spr_dialogueIndicator/spr_dialogueIndicator.yy",},},

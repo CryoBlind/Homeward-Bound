@@ -41,3 +41,6 @@ if(amountToUpdateObject != 0 && shouldUpdateButton){
 	if(connectedObject2 != noone) connectedObject2.numButtonsPressed += amountToUpdateObject;
 	shouldUpdateButton = false;
 }
+
+if(isActivated) sprite_index = spr_button_on;
+else sprite_index = spr_button_off;
