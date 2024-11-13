@@ -8,14 +8,18 @@ function get_player_sprites(){
 			case ATTACHMENT_STYLE.SECURE:	
 				stopped_sprite = spr_player1_secure_stopped;
 				moving_sprite = spr_player1_secure_running;
+				break;
 			case ATTACHMENT_STYLE.ANXIOUS:	
 				stopped_sprite = spr_player1_anxious_stopped;
 				moving_sprite = spr_player1_anxious_running;
+				break;
 			case ATTACHMENT_STYLE.AVOIDANT:	
 				stopped_sprite = spr_player1_avoidant_stopped;
 				moving_sprite = spr_player1_avoidant_running;
+				break;
 			case ATTACHMENT_STYLE.DISORGANIZED:	
 				//TO-DO: pick style randomly, then re-run function
+				break;
 			default:
 				break;
 		}
@@ -25,14 +29,18 @@ function get_player_sprites(){
 			case ATTACHMENT_STYLE.SECURE:	
 				stopped_sprite = spr_player2_secure_stopped;
 				moving_sprite = spr_player2_secure_running;
+				break;
 			case ATTACHMENT_STYLE.ANXIOUS:	
 				stopped_sprite = spr_player2_anxious_stopped;
 				moving_sprite = spr_player2_anxious_running;
+				break;
 			case ATTACHMENT_STYLE.AVOIDANT:	
 				stopped_sprite = spr_player2_avoidant_stopped;
 				moving_sprite = spr_player2_avoidant_running;
+				break;
 			case ATTACHMENT_STYLE.DISORGANIZED:	
 				//TO-DO: pick style randomly, then re-run function
+				break;
 			default:
 				break;
 		}
