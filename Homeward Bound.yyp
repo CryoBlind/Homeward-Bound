@@ -145,6 +145,8 @@
     {"id":{"name":"Sprite30","path":"sprites/Sprite30/Sprite30.yy",},},
     {"id":{"name":"Sprite50","path":"sprites/Sprite50/Sprite50.yy",},},
     {"id":{"name":"Sprite54","path":"sprites/Sprite54/Sprite54.yy",},},
+    {"id":{"name":"Sprite64","path":"sprites/Sprite64/Sprite64.yy",},},
+    {"id":{"name":"Sprite65","path":"sprites/Sprite65/Sprite65.yy",},},
     {"id":{"name":"tiles2","path":"sprites/tiles2/tiles2.yy",},},
     {"id":{"name":"tiles27","path":"sprites/tiles27/tiles27.yy",},},
     {"id":{"name":"Wall1","path":"sprites/Wall1/Wall1.yy",},},

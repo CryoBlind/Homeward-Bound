@@ -74,6 +74,8 @@
     {"name":"Sprite30","order":2,"path":"sprites/Sprite30/Sprite30.yy",},
     {"name":"Sprite50","order":37,"path":"sprites/Sprite50/Sprite50.yy",},
     {"name":"Sprite54","order":41,"path":"sprites/Sprite54/Sprite54.yy",},
+    {"name":"Sprite64","order":51,"path":"sprites/Sprite64/Sprite64.yy",},
+    {"name":"Sprite65","order":52,"path":"sprites/Sprite65/Sprite65.yy",},
     {"name":"Wall1","order":1,"path":"sprites/Wall1/Wall1.yy",},
     {"name":"Wall2","order":3,"path":"sprites/Wall2/Wall2.yy",},
     {"name":"WallAsset","order":38,"path":"sprites/WallAsset/WallAsset.yy",},
