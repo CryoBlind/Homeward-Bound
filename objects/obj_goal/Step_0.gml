@@ -6,5 +6,5 @@ if(place_meeting(x,y,par_players) && !reachedGoal){
 }
 
 if(reachedGoal){
-	room_goto(1);
+	room_goto(WinRoom);
 }

@@ -76,6 +76,7 @@
     {"id":{"name":"Room_lvlSelect","path":"rooms/Room_lvlSelect/Room_lvlSelect.yy",},},
     {"id":{"name":"Room_MainMenu","path":"rooms/Room_MainMenu/Room_MainMenu.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"id":{"name":"WinRoom","path":"rooms/WinRoom/WinRoom.yy",},},
     {"id":{"name":"scr_change_rope_types","path":"scripts/scr_change_rope_types/scr_change_rope_types.yy",},},
     {"id":{"name":"scr_create_rope","path":"scripts/scr_create_rope/scr_create_rope.yy",},},
     {"id":{"name":"scr_delete_rope","path":"scripts/scr_delete_rope/scr_delete_rope.yy",},},
@@ -154,6 +155,7 @@
     {"id":{"name":"Wall2","path":"sprites/Wall2/Wall2.yy",},},
     {"id":{"name":"WallAsset","path":"sprites/WallAsset/WallAsset.yy",},},
     {"id":{"name":"wallpaperart2","path":"sprites/wallpaperart2/wallpaperart2.yy",},},
+    {"id":{"name":"winscreen","path":"sprites/winscreen/winscreen.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
     {"id":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},},
   ],
@@ -164,6 +166,7 @@
     {"roomId":{"name":"Room_lvlSelect","path":"rooms/Room_lvlSelect/Room_lvlSelect.yy",},},
     {"roomId":{"name":"Room_Bag","path":"rooms/Room_Bag/Room_Bag.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"WinRoom","path":"rooms/WinRoom/WinRoom.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
