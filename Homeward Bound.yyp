@@ -92,6 +92,7 @@
     {"id":{"name":"bluesquarebutton","path":"sprites/bluesquarebutton/bluesquarebutton.yy",},},
     {"id":{"name":"bluetributton","path":"sprites/bluetributton/bluetributton.yy",},},
     {"id":{"name":"Maze_Tiles_T","path":"sprites/Maze_Tiles_T/Maze_Tiles_T.yy",},},
+    {"id":{"name":"Menu","path":"sprites/Menu/Menu.yy",},},
     {"id":{"name":"MenuArt","path":"sprites/MenuArt/MenuArt.yy",},},
     {"id":{"name":"redcirclebutton","path":"sprites/redcirclebutton/redcirclebutton.yy",},},
     {"id":{"name":"redsqbutton","path":"sprites/redsqbutton/redsqbutton.yy",},},

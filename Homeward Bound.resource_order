@@ -27,6 +27,7 @@
     {"name":"bluecirclebutton","order":48,"path":"sprites/bluecirclebutton/bluecirclebutton.yy",},
     {"name":"bluesquarebutton","order":46,"path":"sprites/bluesquarebutton/bluesquarebutton.yy",},
     {"name":"bluetributton","order":47,"path":"sprites/bluetributton/bluetributton.yy",},
+    {"name":"Menu","order":53,"path":"sprites/Menu/Menu.yy",},
     {"name":"MenuArt","order":39,"path":"sprites/MenuArt/MenuArt.yy",},
     {"name":"redcirclebutton","order":45,"path":"sprites/redcirclebutton/redcirclebutton.yy",},
     {"name":"redsqbutton","order":49,"path":"sprites/redsqbutton/redsqbutton.yy",},
