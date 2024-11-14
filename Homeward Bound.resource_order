@@ -47,6 +47,7 @@
     {"name":"spr_door","order":17,"path":"sprites/spr_door/spr_door.yy",},
     {"name":"spr_door1","order":56,"path":"sprites/spr_door1/spr_door1.yy",},
     {"name":"spr_goal","order":6,"path":"sprites/spr_goal/spr_goal.yy",},
+    {"name":"spr_happyblock","order":57,"path":"sprites/spr_happyblock/spr_happyblock.yy",},
     {"name":"spr_knot1","order":55,"path":"sprites/spr_knot1/spr_knot1.yy",},
     {"name":"spr_MenuButton","order":1,"path":"sprites/spr_MenuButton/spr_MenuButton.yy",},
     {"name":"spr_player1_anxious_running","order":30,"path":"sprites/spr_player1_anxious_running/spr_player1_anxious_running.yy",},

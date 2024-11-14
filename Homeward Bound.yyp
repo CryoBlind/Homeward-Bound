@@ -113,6 +113,7 @@
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},},
     {"id":{"name":"spr_door1","path":"sprites/spr_door1/spr_door1.yy",},},
     {"id":{"name":"spr_goal","path":"sprites/spr_goal/spr_goal.yy",},},
+    {"id":{"name":"spr_happyblock","path":"sprites/spr_happyblock/spr_happyblock.yy",},},
     {"id":{"name":"spr_knot","path":"sprites/spr_knot/spr_knot.yy",},},
     {"id":{"name":"spr_knot1","path":"sprites/spr_knot1/spr_knot1.yy",},},
     {"id":{"name":"spr_levelButton","path":"sprites/spr_levelButton/spr_levelButton.yy",},},
