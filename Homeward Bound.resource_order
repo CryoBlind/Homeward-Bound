@@ -45,6 +45,7 @@
     {"name":"spr_dialogueIndicator","order":42,"path":"sprites/spr_dialogueIndicator/spr_dialogueIndicator.yy",},
     {"name":"spr_dialogueTrigger","order":5,"path":"sprites/spr_dialogueTrigger/spr_dialogueTrigger.yy",},
     {"name":"spr_door","order":17,"path":"sprites/spr_door/spr_door.yy",},
+    {"name":"spr_door1","order":56,"path":"sprites/spr_door1/spr_door1.yy",},
     {"name":"spr_goal","order":6,"path":"sprites/spr_goal/spr_goal.yy",},
     {"name":"spr_knot1","order":55,"path":"sprites/spr_knot1/spr_knot1.yy",},
     {"name":"spr_MenuButton","order":1,"path":"sprites/spr_MenuButton/spr_MenuButton.yy",},

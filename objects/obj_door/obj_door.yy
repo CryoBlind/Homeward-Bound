@@ -40,8 +40,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite54",
-    "path":"sprites/Sprite54/Sprite54.yy",
+    "name":"spr_door1",
+    "path":"sprites/spr_door1/spr_door1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
