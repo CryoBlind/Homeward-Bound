@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_knot",
-    "path":"sprites/spr_knot/spr_knot.yy",
+    "name":"spr_knot1",
+    "path":"sprites/spr_knot1/spr_knot1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

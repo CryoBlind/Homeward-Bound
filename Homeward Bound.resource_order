@@ -44,6 +44,7 @@
     {"name":"spr_dialogueTrigger","order":5,"path":"sprites/spr_dialogueTrigger/spr_dialogueTrigger.yy",},
     {"name":"spr_door","order":17,"path":"sprites/spr_door/spr_door.yy",},
     {"name":"spr_goal","order":6,"path":"sprites/spr_goal/spr_goal.yy",},
+    {"name":"spr_knot1","order":55,"path":"sprites/spr_knot1/spr_knot1.yy",},
     {"name":"spr_MenuButton","order":1,"path":"sprites/spr_MenuButton/spr_MenuButton.yy",},
     {"name":"spr_player1_anxious_running","order":30,"path":"sprites/spr_player1_anxious_running/spr_player1_anxious_running.yy",},
     {"name":"spr_player1_anxious_stopped","order":29,"path":"sprites/spr_player1_anxious_stopped/spr_player1_anxious_stopped.yy",},
