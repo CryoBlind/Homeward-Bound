@@ -18,3 +18,7 @@ p2_up = false;
 p2_down = false;
 
 should_move = true;
+
+if(player_that_initiated == 1) text = string_concat("P1: ", text);
+else text = string_concat("P2: ", text);
+

@@ -20,7 +20,7 @@ global.current_player1_dialogue_parameters = {
 	player_that_initiated : 1
 };
 global.current_player2_dialogue_parameters = {
-	text : "some random dialogue P2",
+	text : "some random dialogue P2 that is very long to see how the text looks when it is too thicc",
 	otherOpt1: "1",
 	otherOpt2: "2",
 	otherOpt3: "3",

@@ -89,6 +89,7 @@
     {"id":{"name":"scr_respawn_players","path":"scripts/scr_respawn_players/scr_respawn_players.yy",},},
     {"id":{"name":"scr_spawn_players","path":"scripts/scr_spawn_players/scr_spawn_players.yy",},},
     {"id":{"name":"scr_update_interaction_dialogue","path":"scripts/scr_update_interaction_dialogue/scr_update_interaction_dialogue.yy",},},
+    {"id":{"name":"scr_word_wrap","path":"scripts/scr_word_wrap/scr_word_wrap.yy",},},
     {"id":{"name":"seq_game_hud","path":"sequences/seq_game_hud/seq_game_hud.yy",},},
     {"id":{"name":"bluecirclebutton","path":"sprites/bluecirclebutton/bluecirclebutton.yy",},},
     {"id":{"name":"bluesquarebutton","path":"sprites/bluesquarebutton/bluesquarebutton.yy",},},

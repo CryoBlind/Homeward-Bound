@@ -41,6 +41,7 @@
     {"name":"scr_respawn_players","order":2,"path":"scripts/scr_respawn_players/scr_respawn_players.yy",},
     {"name":"scr_spawn_players","order":3,"path":"scripts/scr_spawn_players/scr_spawn_players.yy",},
     {"name":"scr_update_interaction_dialogue","order":4,"path":"scripts/scr_update_interaction_dialogue/scr_update_interaction_dialogue.yy",},
+    {"name":"scr_word_wrap","order":6,"path":"scripts/scr_word_wrap/scr_word_wrap.yy",},
     {"name":"bluecirclebutton","order":48,"path":"sprites/bluecirclebutton/bluecirclebutton.yy",},
     {"name":"bluesquarebutton","order":46,"path":"sprites/bluesquarebutton/bluesquarebutton.yy",},
     {"name":"bluetributton","order":47,"path":"sprites/bluetributton/bluetributton.yy",},
