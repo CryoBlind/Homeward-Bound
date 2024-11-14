@@ -13,6 +13,7 @@
     {"name":"obj_forced_dialogue_trigger","order":2,"path":"objects/obj_forced_dialogue_trigger/obj_forced_dialogue_trigger.yy",},
     {"name":"obj_hud_ropeStrength","order":1,"path":"objects/obj_hud_ropeStrength/obj_hud_ropeStrength.yy",},
     {"name":"obj_quitButton","order":5,"path":"objects/obj_quitButton/obj_quitButton.yy",},
+    {"name":"obj_redcirclebutton","order":7,"path":"objects/obj_redcirclebutton/obj_redcirclebutton.yy",},
     {"name":"obj_rope_segment","order":4,"path":"objects/obj_rope_segment/obj_rope_segment.yy",},
     {"name":"obj_StartGameButton","order":1,"path":"objects/obj_StartGameButton/obj_StartGameButton.yy",},
     {"name":"Object7","order":10,"path":"objects/Object7/Object7.yy",},

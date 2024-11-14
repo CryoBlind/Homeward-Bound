@@ -62,6 +62,7 @@
     {"id":{"name":"obj_player2","path":"objects/obj_player2/obj_player2.yy",},},
     {"id":{"name":"obj_playerSpawner","path":"objects/obj_playerSpawner/obj_playerSpawner.yy",},},
     {"id":{"name":"obj_quitButton","path":"objects/obj_quitButton/obj_quitButton.yy",},},
+    {"id":{"name":"obj_redcirclebutton","path":"objects/obj_redcirclebutton/obj_redcirclebutton.yy",},},
     {"id":{"name":"obj_roller","path":"objects/obj_roller/obj_roller.yy",},},
     {"id":{"name":"obj_rope_segment","path":"objects/obj_rope_segment/obj_rope_segment.yy",},},
     {"id":{"name":"obj_StartGameButton","path":"objects/obj_StartGameButton/obj_StartGameButton.yy",},},
