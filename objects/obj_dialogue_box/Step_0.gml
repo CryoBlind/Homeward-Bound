@@ -22,8 +22,8 @@ if (player_that_initiated == 2 && space_pressed || player_that_initiated == 1 &&
 	global.in_dialogue = false;
 	global.can_initiate_dialogue = false;
 	global.dialogue_cooldown = 10;
-	global.bag_weight = clamp(global.bag_weight - 200_000, 5, 1_000_000);
-	global.bag_damping = clamp(global.bag_weight - 200_000, 5, 1_000_000);
+	global.bag_weight = clamp(global.bag_weight - global.amount_to_reduce_weight, 5, 1_000_000);
+	global.bag_damping = clamp(global.bag_damping - 10, 5, 1_000_000);
 	global.bag_updated = true;
 	if(!forced){
 		if(player_that_initiated == 1) global.player1_interaction_dialogue_allowed = false;

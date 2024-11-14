@@ -5,9 +5,11 @@ function scr_update_interaction_dialogue(new_dialogue, player_to_change){
 		case 1:
 			global.current_player1_dialogue_parameters = new_dialogue;
 			global.player1_interaction_dialogue_allowed = true;
+			break;
 		case 2:
 			global.current_player2_dialogue_parameters = new_dialogue;
 			global.player2_interaction_dialogue_allowed = true;
+			break;
 	}
 	
 }

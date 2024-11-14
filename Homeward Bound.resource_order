@@ -20,6 +20,7 @@
     {"name":"Timelines","order":19,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"Font_RopeStrength","order":1,"path":"fonts/Font_RopeStrength/Font_RopeStrength.yy",},
     {"name":"obj_backButton","order":4,"path":"objects/obj_backButton/obj_backButton.yy",},
     {"name":"obj_bagLevelButton","order":3,"path":"objects/obj_bagLevelButton/obj_bagLevelButton.yy",},
     {"name":"obj_box","order":2,"path":"objects/obj_box/obj_box.yy",},
@@ -60,6 +61,7 @@
     {"name":"spr_characterSelection","order":27,"path":"sprites/spr_characterSelection/spr_characterSelection.yy",},
     {"name":"spr_dialogueIndicator","order":42,"path":"sprites/spr_dialogueIndicator/spr_dialogueIndicator.yy",},
     {"name":"spr_dialogueTrigger","order":24,"path":"sprites/spr_dialogueTrigger/spr_dialogueTrigger.yy",},
+    {"name":"spr_door_doodad","order":5,"path":"sprites/spr_door_doodad/spr_door_doodad.yy",},
     {"name":"spr_door","order":17,"path":"sprites/spr_door/spr_door.yy",},
     {"name":"spr_door1","order":56,"path":"sprites/spr_door1/spr_door1.yy",},
     {"name":"spr_goal","order":6,"path":"sprites/spr_goal/spr_goal.yy",},
@@ -93,7 +95,6 @@
     {"name":"Sprite15","order":16,"path":"sprites/Sprite15/Sprite15.yy",},
     {"name":"Sprite16","order":2,"path":"sprites/Sprite16/Sprite16.yy",},
     {"name":"Sprite17","order":19,"path":"sprites/Sprite17/Sprite17.yy",},
-    {"name":"Sprite18","order":5,"path":"sprites/Sprite18/Sprite18.yy",},
     {"name":"Sprite19","order":7,"path":"sprites/Sprite19/Sprite19.yy",},
     {"name":"Sprite23","order":2,"path":"sprites/Sprite23/Sprite23.yy",},
     {"name":"Sprite29","order":20,"path":"sprites/Sprite29/Sprite29.yy",},

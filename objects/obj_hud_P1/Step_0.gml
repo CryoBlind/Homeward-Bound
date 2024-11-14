@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-isEnabled = false;
-sprite_index = -1;
-phy_active = false;
-instance_destroy(self);
+if(global.player1_var != noone){
+	sprite_index = global.player1_var.sprite_index;
+}

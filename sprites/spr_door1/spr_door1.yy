@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"spr_door1",
-  "bboxMode":0,
+  "bboxMode":1,
   "bbox_bottom":255,
-  "bbox_left":88,
-  "bbox_right":167,
+  "bbox_left":0,
+  "bbox_right":255,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,

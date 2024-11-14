@@ -35,6 +35,12 @@
     {"$GMObjectProperty":"v1","%Name":"connectedObject2","filters":[
         "GMObject",
       ],"listItems":[],"multiselect":false,"name":"connectedObject2","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"connectedObject3","filters":[
+        "GMObject",
+      ],"listItems":[],"multiselect":false,"name":"connectedObject3","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"connectedObject4","filters":[
+        "GMObject",
+      ],"listItems":[],"multiselect":false,"name":"connectedObject4","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

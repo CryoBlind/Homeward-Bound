@@ -8,6 +8,9 @@
 // Draw the P2 HUD object itself
 draw_self();
 
+if(global.player2_interaction_dialogue_allowed){
+	draw_sprite_ext(spr_dialogueIndicator, 1, x - 128, y - 128, -0.75, 0.75, 0, c_white, 255);
+}
 // This font will now be used for drawing text
 draw_set_font(fnt_HUD);
 
