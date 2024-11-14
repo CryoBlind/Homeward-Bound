@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function scr_create_rope(numSegments, ropeTypePlayer1, ropeTypePlayer2, player1){
+function scr_create_rope(numSegments, ropeTypePlayer1, ropeTypePlayer2, player1, knot_is_baggage){
 	rope_segment_size = 48;
 	global.rope_array = array_create(numSegments, noone);
 	global.max_tolerable_rope_length = numSegments * (rope_segment_size - 1);
@@ -33,7 +33,10 @@ function scr_create_rope(numSegments, ropeTypePlayer1, ropeTypePlayer2, player1)
 		last_rope = next_rope;
 	
 		if(abs(numSegments/2 - i) < 1) { //create knot
-			knot = instance_create_layer(host.x, host.y+offset_y, layer_get_id("Knot"), obj_knot)
+			var rope_struct = {
+				is_baggage : knot_is_baggage
+			};
+			knot = instance_create_layer(host.x, host.y+offset_y, layer_get_id("Knot"), obj_knot, rope_struct);
 			attach_knot = physics_joint_revolute_create(last_rope, knot, host.x, host.y + offset_y, -1, -1, false, 0, 0, false, false);
 			physics_joint_set_value(attach_knot, phy_joint_damping_ratio, 0);
 			physics_joint_set_value(attach_knot, phy_joint_frequency, 40);
@@ -43,6 +46,10 @@ function scr_create_rope(numSegments, ropeTypePlayer1, ropeTypePlayer2, player1)
 			global.knot = knot;
 			underHalfWay = false;
 			//lastConnectionWasKnot = true;
+			with(knot){
+				parent = other.last_rope;
+				attach = other.attach_knot;
+			}
 		}
 	
 		next_rope = instance_create_layer(host.x, host.y+offset_y, layer_get_id("Rope"), obj_rope_segment);

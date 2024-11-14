@@ -5,5 +5,5 @@ function scr_respawn_players(spawner){
 	instance_destroy(global.knot);
 	global.knot = noone;
 	scr_delete_rope();
-	scr_spawn_players(spawner, spawner.rope_length, spawner.player1_type, spawner.player2_type);
+	scr_spawn_players(spawner, spawner.rope_length, spawner.player1_type, spawner.player2_type, spawner.knot_is_baggage);
 }
