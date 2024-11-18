@@ -36,6 +36,7 @@
     {"name":"par_levelSelectButton","order":2,"path":"objects/par_levelSelectButton/par_levelSelectButton.yy",},
     {"name":"Room_lvlSelect","order":2,"path":"rooms/Room_lvlSelect/Room_lvlSelect.yy",},
     {"name":"Room_MainMenu","order":1,"path":"rooms/Room_MainMenu/Room_MainMenu.yy",},
+    {"name":"Room_test","order":4,"path":"rooms/Room_test/Room_test.yy",},
     {"name":"WinRoom","order":3,"path":"rooms/WinRoom/WinRoom.yy",},
     {"name":"scr_delete_rope","order":1,"path":"scripts/scr_delete_rope/scr_delete_rope.yy",},
     {"name":"scr_dialogue_input","order":5,"path":"scripts/scr_dialogue_input/scr_dialogue_input.yy",},

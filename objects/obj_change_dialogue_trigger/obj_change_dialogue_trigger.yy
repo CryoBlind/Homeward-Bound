@@ -42,5 +42,5 @@
     "path":"sprites/spr_changeDialogueTrigger/spr_changeDialogueTrigger.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

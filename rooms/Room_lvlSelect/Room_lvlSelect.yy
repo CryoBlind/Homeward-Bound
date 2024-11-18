@@ -14,6 +14,7 @@
     {"name":"inst_3D35C986","path":"rooms/Room_lvlSelect/Room_lvlSelect.yy",},
     {"name":"inst_55A842D2","path":"rooms/Room_lvlSelect/Room_lvlSelect.yy",},
     {"name":"inst_39AC7F3F","path":"rooms/Room_lvlSelect/Room_lvlSelect.yy",},
+    {"name":"inst_44E0E0BE","path":"rooms/Room_lvlSelect/Room_lvlSelect.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -49,6 +50,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_characterSelectButton","path":"objects/obj_characterSelectButton/obj_characterSelectButton.yy",},"propertyId":{"name":"player_to_change","path":"objects/obj_characterSelectButton/obj_characterSelectButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_characterSelectButton","path":"objects/obj_characterSelectButton/obj_characterSelectButton.yy",},"propertyId":{"name":"type_to_change_to","path":"objects/obj_characterSelectButton/obj_characterSelectButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":864.0,"y":384.0,},
+        {"$GMRInstance":"v1","%Name":"inst_44E0E0BE","colour":4284926976,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_44E0E0BE","objectId":{"name":"obj_bagLevelButton","path":"objects/obj_bagLevelButton/obj_bagLevelButton.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":672.0,"y":704.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_5826D926","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_5826D926","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"bluesquarebutton","path":"sprites/bluesquarebutton/bluesquarebutton.yy",},"x":992.0,"y":128.0,},
