@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":1,
   "parent":{
-    "name":"Homeward Bound",
-    "path":"Homeward Bound.yyp",
+    "name":"Sprites",
+    "path":"folders/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
