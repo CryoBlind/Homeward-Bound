@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_wall",
-    "path":"sprites/spr_wall/spr_wall.yy",
+    "name":"spr_Wallcolor",
+    "path":"sprites/spr_Wallcolor/spr_Wallcolor.yy",
   },
   "spriteMaskId":null,
   "visible":true,
