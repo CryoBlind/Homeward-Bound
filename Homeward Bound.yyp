@@ -34,7 +34,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.0.169",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Homeward Bound",
   "resources":[
@@ -79,6 +79,7 @@
     {"id":{"name":"Room_lvlSelect","path":"rooms/Room_lvlSelect/Room_lvlSelect.yy",},},
     {"id":{"name":"Room_MainMenu","path":"rooms/Room_MainMenu/Room_MainMenu.yy",},},
     {"id":{"name":"Room_test","path":"rooms/Room_test/Room_test.yy",},},
+    {"id":{"name":"Room_TrustBridge","path":"rooms/Room_TrustBridge/Room_TrustBridge.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"WinRoom","path":"rooms/WinRoom/WinRoom.yy",},},
     {"id":{"name":"scr_change_rope_types","path":"scripts/scr_change_rope_types/scr_change_rope_types.yy",},},
@@ -184,6 +185,7 @@
     {"roomId":{"name":"Room_test","path":"rooms/Room_test/Room_test.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"WinRoom","path":"rooms/WinRoom/WinRoom.yy",},},
+    {"roomId":{"name":"Room_TrustBridge","path":"rooms/Room_TrustBridge/Room_TrustBridge.yy",},},
     {"roomId":{"name":"Room_EmotionalKey","path":"rooms/Room_EmotionalKey/Room_EmotionalKey.yy",},},
   ],
   "templateType":"game",
