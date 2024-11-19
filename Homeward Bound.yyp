@@ -75,6 +75,7 @@
     {"id":{"name":"par_players","path":"objects/par_players/par_players.yy",},},
     {"id":{"name":"par_wall","path":"objects/par_wall/par_wall.yy",},},
     {"id":{"name":"Room_Bag","path":"rooms/Room_Bag/Room_Bag.yy",},},
+    {"id":{"name":"Room_EmotionalKey","path":"rooms/Room_EmotionalKey/Room_EmotionalKey.yy",},},
     {"id":{"name":"Room_lvlSelect","path":"rooms/Room_lvlSelect/Room_lvlSelect.yy",},},
     {"id":{"name":"Room_MainMenu","path":"rooms/Room_MainMenu/Room_MainMenu.yy",},},
     {"id":{"name":"Room_test","path":"rooms/Room_test/Room_test.yy",},},
@@ -183,6 +184,7 @@
     {"roomId":{"name":"Room_test","path":"rooms/Room_test/Room_test.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"WinRoom","path":"rooms/WinRoom/WinRoom.yy",},},
+    {"roomId":{"name":"Room_EmotionalKey","path":"rooms/Room_EmotionalKey/Room_EmotionalKey.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
