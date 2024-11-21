@@ -40,5 +40,5 @@
     "path":"sprites/spr_Wallcolor/spr_Wallcolor.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
