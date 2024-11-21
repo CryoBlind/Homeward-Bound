@@ -74,5 +74,7 @@ drag = 20_000;
 phy_fixed_rotation = true;
 
 joint_with_next_rope = -1;
+
+
 get_player_sprites();
 
