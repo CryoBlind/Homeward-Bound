@@ -34,7 +34,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"Homeward Bound",
   "resources":[
@@ -119,12 +119,14 @@
     {"id":{"name":"spr_door_doodad","path":"sprites/spr_door_doodad/spr_door_doodad.yy",},},
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},},
     {"id":{"name":"spr_door1","path":"sprites/spr_door1/spr_door1.yy",},},
+    {"id":{"name":"spr_FunWall","path":"sprites/spr_FunWall/spr_FunWall.yy",},},
     {"id":{"name":"spr_goal","path":"sprites/spr_goal/spr_goal.yy",},},
     {"id":{"name":"spr_happyblock","path":"sprites/spr_happyblock/spr_happyblock.yy",},},
     {"id":{"name":"spr_knot","path":"sprites/spr_knot/spr_knot.yy",},},
     {"id":{"name":"spr_knot1","path":"sprites/spr_knot1/spr_knot1.yy",},},
     {"id":{"name":"spr_levelButton","path":"sprites/spr_levelButton/spr_levelButton.yy",},},
     {"id":{"name":"spr_MenuButton","path":"sprites/spr_MenuButton/spr_MenuButton.yy",},},
+    {"id":{"name":"spr_NewBridge","path":"sprites/spr_NewBridge/spr_NewBridge.yy",},},
     {"id":{"name":"spr_obstacle","path":"sprites/spr_obstacle/spr_obstacle.yy",},},
     {"id":{"name":"spr_player1_anxious_running","path":"sprites/spr_player1_anxious_running/spr_player1_anxious_running.yy",},},
     {"id":{"name":"spr_player1_anxious_stopped","path":"sprites/spr_player1_anxious_stopped/spr_player1_anxious_stopped.yy",},},
