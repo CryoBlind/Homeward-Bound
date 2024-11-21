@@ -11,6 +11,7 @@ global.bag_damping = 20;
 global.bag_updated = false;
 global.rope_strain = 0;
 global.in_dialogue = false;
+global.num_keys = 0;
 global.current_player1_dialogue_parameters = {
 	text : "some random dialogue P1",
 	otherOpt1: "1",
