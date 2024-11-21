@@ -4,3 +4,4 @@ startState = isEnabled;
 startSprite = sprite_index;
 
 coveredWithBoxSprite = -1;
+isDestroyed = false;

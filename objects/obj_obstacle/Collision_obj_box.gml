@@ -3,4 +3,4 @@
 isEnabled = false;
 sprite_index = -1;
 phy_active = false;
-instance_destroy(self);
+isDestroyed = true;
