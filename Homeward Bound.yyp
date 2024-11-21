@@ -34,7 +34,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"Homeward Bound",
   "resources":[
@@ -182,8 +182,8 @@
     {"roomId":{"name":"Room_test","path":"rooms/Room_test/Room_test.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"WinRoom","path":"rooms/WinRoom/WinRoom.yy",},},
-    {"roomId":{"name":"Room_TrustBridge","path":"rooms/Room_TrustBridge/Room_TrustBridge.yy",},},
     {"roomId":{"name":"Room_EmotionalKey","path":"rooms/Room_EmotionalKey/Room_EmotionalKey.yy",},},
+    {"roomId":{"name":"Room_TrustBridge","path":"rooms/Room_TrustBridge/Room_TrustBridge.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
