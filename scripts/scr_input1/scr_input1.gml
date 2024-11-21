@@ -11,7 +11,7 @@ function scr_input1(){
 	space_pressed = keyboard_check_pressed(vk_space);
 	
 	//Utility
-	if keyboard_check_pressed(vk_escape) game_end();
+	//if keyboard_check_pressed(vk_escape) game_end();
 	
 	if(keyboard_check_pressed(ord("R"))){
 		game_restart();

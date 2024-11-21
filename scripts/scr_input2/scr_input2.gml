@@ -9,7 +9,7 @@ function scr_input2(){
 	
 	space_pressed = keyboard_check_pressed(vk_control);
 	//utility
-	if keyboard_check_pressed(vk_escape) game_end();
+	//if keyboard_check_pressed(vk_escape) game_end();
 	
 	if(keyboard_check_pressed(ord("R"))){
 		game_restart();

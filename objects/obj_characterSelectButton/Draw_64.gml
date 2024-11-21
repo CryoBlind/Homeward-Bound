@@ -19,6 +19,16 @@ draw_set_alpha(image_alpha);
 // This uses the scale of the instance to scale the text, so the text appears at the same scale as the button itself
 draw_text_transformed(x, y - 4, string(text), image_xscale, image_yscale, 0);
 
+if(type_to_change_to == 0){
+	draw_text(x, y-256, string("Secure"));
+}
+else if (type_to_change_to == 1){
+	draw_text(x, y-256, string("Anxious"));
+}
+else if (type_to_change_to == 2){
+	draw_text(x, y-256, string("Avoidant"));
+}
+
 // Reset the alpha to its default value (which is 1)
 draw_set_alpha(1);
 
