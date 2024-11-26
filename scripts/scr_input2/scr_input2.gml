@@ -8,6 +8,7 @@ function scr_input2(){
 	down = keyboard_check(vk_down);
 	
 	space_pressed = keyboard_check_pressed(vk_control);
+	
 	//utility
 	//if keyboard_check_pressed(vk_escape) game_end();
 	

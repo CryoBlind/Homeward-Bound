@@ -15,26 +15,30 @@ draw_set_valign(fa_middle);
 // (which is controlled by the menu Sequence).
 draw_set_alpha(image_alpha);
 
-// Draw the text at the centre of the button
-// This uses the scale of the instance to scale the text, so the text appears at the same scale as the button itself
-draw_text_transformed(x, y - 4, string(text), image_xscale, image_yscale, 0);
-
+//Sets text according to the button
 if(type_to_change_to == 0){
-	draw_text(x, y-256, string("Secure"));
+	//draw_text(x-sprite_height, y-sprite_height, string("Secure"));
+	text = "Secure";
 }
 else if (type_to_change_to == 1){
-	draw_text(x, y-256, string("Anxious"));
+	//draw_text(x, y-256, string("Anxious"));
+	text = "Anxious";
 }
 else if (type_to_change_to == 2){
-	draw_text(x, y-256, string("Avoidant"));
+	//draw_text(x, y-256, string("Avoidant"));
+	text = "Avoidant";
 }
+
+// Draw the text at the centre of the button
+// This uses the scale of the instance to scale the text, so the text appears at the same scale as the button itself
+draw_text_transformed((x + 0.40*sprite_width), (y+0.90*sprite_height), string(text), image_xscale, image_yscale, 0);
 
 // Reset the alpha to its default value (which is 1)
 draw_set_alpha(1);
 
 // Reset the text alignment to left-top (which is the default alignment)
-draw_set_halign(fa_left);
-draw_set_valign(fa_top);
+//draw_set_halign(fa_left);
+//draw_set_valign(fa_top);
 
 // Reset the color to white
 draw_set_colour(c_white);

@@ -34,7 +34,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"Homeward Bound",
   "resources":[
@@ -42,6 +42,7 @@
     {"id":{"name":"fnt_HUD","path":"fonts/fnt_HUD/fnt_HUD.yy",},},
     {"id":{"name":"Font_RopeStrength","path":"fonts/Font_RopeStrength/Font_RopeStrength.yy",},},
     {"id":{"name":"obj_backButton","path":"objects/obj_backButton/obj_backButton.yy",},},
+    {"id":{"name":"obj_BackToLevelsButton","path":"objects/obj_BackToLevelsButton/obj_BackToLevelsButton.yy",},},
     {"id":{"name":"obj_bagLevelButton","path":"objects/obj_bagLevelButton/obj_bagLevelButton.yy",},},
     {"id":{"name":"obj_box","path":"objects/obj_box/obj_box.yy",},},
     {"id":{"name":"obj_boxSpawner","path":"objects/obj_boxSpawner/obj_boxSpawner.yy",},},
