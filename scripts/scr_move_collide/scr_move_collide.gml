@@ -76,17 +76,17 @@ function scr_move_collide(){
 		_y_power = global.player2_var.y - global.player1_var.y
 	}
 	var _dist_from_other_player = sqrt(power(_x_power, 2) + power(_y_power, 2));
-	var _max_push = 200_000;
+	var _max_push = 175_000 * global.attachment_effect_multiplier;
 	
 	if(current_type == ATTACHMENT_STYLE.AVOIDANT && _dist_from_other_player <= global.min_tolerable_distance){
 		physics_apply_local_force(0, 0, clamp((200/(_x_power)) * _max_push, -_max_push, _max_push), clamp((200/(_y_power)) * _max_push, -_max_push, _max_push));
 	}
 	
 	if(current_type == ATTACHMENT_STYLE.ANXIOUS){
-		var _push = 2_000;
+		var _push = 2_000 * global.attachment_effect_multiplier;
 		if(_dist_from_other_player > global.max_tolerable_rope_length - 20 && stepsCount < 1){
 			stepsCount = 5;
-			global.rope_strain = clamp(global.rope_strain + 20, 0, 120);
+			global.rope_strain = clamp(global.rope_strain + (20 * global.attachment_effect_multiplier), 0, 120);
 		}
 		
 		if(stepsCount > 0){

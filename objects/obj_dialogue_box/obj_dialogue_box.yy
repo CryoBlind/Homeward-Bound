@@ -35,6 +35,8 @@
     {"$GMObjectProperty":"v1","%Name":"otherOpt4","filters":[],"listItems":[],"multiselect":false,"name":"otherOpt4","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
     {"$GMObjectProperty":"v1","%Name":"forced","filters":[],"listItems":[],"multiselect":false,"name":"forced","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"player_that_initiated","filters":[],"listItems":[],"multiselect":false,"name":"player_that_initiated","rangeEnabled":true,"rangeMax":2.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"goodOpts","filters":[],"listItems":[],"multiselect":false,"name":"goodOpts","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[]","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"badOpts","filters":[],"listItems":[],"multiselect":false,"name":"badOpts","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[]","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

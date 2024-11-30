@@ -3,7 +3,7 @@
 function scr_create_rope(numSegments, ropeTypePlayer1, ropeTypePlayer2, player1, knot_is_baggage){
 	rope_segment_size = 48;
 	global.rope_array = array_create(numSegments, noone);
-	global.max_tolerable_rope_length = numSegments * (rope_segment_size - 1);
+	global.max_tolerable_rope_length = numSegments * (rope_segment_size - .5);
 	global.min_tolerable_distance = (numSegments * 2 * (rope_segment_size)/3);
 	
 	ropeType = ropeTypePlayer1;

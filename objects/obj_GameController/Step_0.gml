@@ -3,12 +3,12 @@
 if(global.max_tolerable_rope_length > 0){
 	global.current_rope_length = scr_get_rope_length()
 	if(global.rope_strain < 100 && global.current_rope_length > global.max_tolerable_rope_length){
-		global.rope_strain = clamp(global.rope_strain + .4, 0, 100);
+		global.rope_strain = clamp(global.rope_strain + .4 * global.attachment_effect_multiplier, 0, 100);
 		global.rope_is_strained = true;
 	}
 	else if(global.rope_strain > 0){
 		if(global.rope_strain > 102) global.rope_strain = clamp(global.rope_strain - .25, 0, 120);
-		else global.rope_strain = clamp(global.rope_strain - .25, 0, 100);
+		else global.rope_strain = clamp(global.rope_strain - (.1 + (.15 * global.attachment_effect_multiplier)), 0, 100);
 		
 		global.rope_is_strained = false;
 	}
@@ -43,4 +43,23 @@ if(global.bag_updated){
 	
 	instance_destroy(oldKnot);
 	global.bag_updated = false;
+}
+
+if(global.attachment_effect_multiplier != 1){
+	if(global.attachment_effect_multiplier < 1) global.attachment_effect_multiplier = clamp(global.attachment_effect_multiplier + .0001, 0, 1);
+	else global.attachment_effect_multiplier = clamp(global.attachment_effect_multiplier - .0001, 1, 2);
+}
+
+if(global.last_dialogue_result != DIALOGUE_RESULT.NONE){
+	if(global.last_dialogue_result == DIALOGUE_RESULT.GOOD){
+		//do something good
+		global.attachment_effect_multiplier = clamp(global.attachment_effect_multiplier - .3333, 0, 2)
+		show_debug_message("good things occured")
+	}
+	else{
+		//do something bad
+		global.attachment_effect_multiplier = clamp(global.attachment_effect_multiplier + .3333, 0, 2)
+		show_debug_message("bad things occured")
+	}
+	global.last_dialogue_result = DIALOGUE_RESULT.NONE
 }

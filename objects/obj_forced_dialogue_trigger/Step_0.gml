@@ -9,7 +9,9 @@ if (place_meeting(x, y, obj_player1) && !dialogue_triggered) {
 		otherOpt3 : opt3,
 		otherOpt4 : opt4,
 		forced : true,
-		player_that_initiated : 1	
+		player_that_initiated : 1	,
+		goodOpts : good_opts,
+		badOpts : bad_opts
 	};
 	
     if (!instance_exists(obj_dialogue_box)) {
@@ -27,7 +29,9 @@ if (place_meeting(x, y, obj_player2) && !dialogue_triggered) {
 		otherOpt3 : opt3,
 		otherOpt4 : opt4,
 		forced : true,
-		player_that_initiated : 2	
+		player_that_initiated : 2,
+		goodOpts : good_opts,
+		badOpts : bad_opts
 	};
 	
     if (!instance_exists(obj_dialogue_box)) {

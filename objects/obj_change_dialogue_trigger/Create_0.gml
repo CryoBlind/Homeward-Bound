@@ -14,5 +14,7 @@ dialogue_parameters =
 	otherOpt4 : opt4,
 	text : dialogue_text,
 	forced : false,
-	player_that_initiated : player_to_change
+	player_that_initiated : player_to_change,
+	goodOpts : good_opts,
+	badOpts : bad_opts
 };

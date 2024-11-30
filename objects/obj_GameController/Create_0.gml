@@ -41,12 +41,19 @@ global.player2_interaction_dialogue_allowed = false;
 global.can_initiate_dialogue = true;
 global.strain_failure_counter = 0;
 global.strain_failure_value = 30;
+global.attachment_effect_multiplier = 1 // should be clamped and slowly return to 1
 enum ATTACHMENT_STYLE {
 	SECURE = 0,
 	ANXIOUS = 1,
 	AVOIDANT = 2,
 	DISORGANIZED = 3
 };
+enum DIALOGUE_RESULT {
+	NONE = 0,
+	BAD = 1,
+	GOOD = 2
+}
+global.last_dialogue_result = 0;
 
 //Initialize Viewports
 view_enabled = true;
