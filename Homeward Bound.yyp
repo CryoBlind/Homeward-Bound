@@ -55,6 +55,7 @@
     {"id":{"name":"obj_forced_dialogue_trigger","path":"objects/obj_forced_dialogue_trigger/obj_forced_dialogue_trigger.yy",},},
     {"id":{"name":"obj_GameController","path":"objects/obj_GameController/obj_GameController.yy",},},
     {"id":{"name":"obj_goal","path":"objects/obj_goal/obj_goal.yy",},},
+    {"id":{"name":"obj_hud_keys","path":"objects/obj_hud_keys/obj_hud_keys.yy",},},
     {"id":{"name":"obj_hud_P1","path":"objects/obj_hud_P1/obj_hud_P1.yy",},},
     {"id":{"name":"obj_hud_P2","path":"objects/obj_hud_P2/obj_hud_P2.yy",},},
     {"id":{"name":"obj_hud_ropeHealth","path":"objects/obj_hud_ropeHealth/obj_hud_ropeHealth.yy",},},
