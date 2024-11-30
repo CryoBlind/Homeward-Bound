@@ -20,7 +20,6 @@ function apply_rotation_x(rotate_x, rotate_y){
 function apply_rotation_y(rotate_x, rotate_y){
 	toReturn = y + sin(-degtorad(image_angle)) * (rotate_x-x) + cos(-degtorad(image_angle)) * (rotate_y-y)
 	return toReturn;
-	
 }
 
 width = image_xscale * 256
