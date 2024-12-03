@@ -54,6 +54,7 @@ spd = 25;
 up = 0;
 down = 0;
 space_pressed = false;
+escape_pressed = false;
 is_moving = false;
 
 stopped_sprite = -1;

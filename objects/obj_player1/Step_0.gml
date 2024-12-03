@@ -19,3 +19,11 @@ if _dist < 300 && space_pressed && global.player1_interaction_dialogue_allowed &
 		dialogue.visible = true;
 	}
 }
+
+//Help menu
+if(escape_pressed){
+	if (!instance_exists(obj_dialogue_box)) {
+		dialogue = instance_create_layer(0, 0, "Instances", obj_help_box);  // Uses the "Instances" layer
+		dialogue.visible = true;
+	}
+}
