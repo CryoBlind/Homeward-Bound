@@ -19,6 +19,7 @@
   "height":256,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"0082324e-b022-4ead-90d2-b8443c9662ad","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"0082324e-b022-4ead-90d2-b8443c9662ad","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"e7ca9d42-dadc-4290-bc14-20dc3dee9da6","blendMode":0,"displayName":"default","isLocked":false,"name":"e7ca9d42-dadc-4290-bc14-20dc3dee9da6","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"redcirclebutton",
