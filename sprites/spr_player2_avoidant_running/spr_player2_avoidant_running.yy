@@ -25,6 +25,7 @@
   "height":256,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"7e1f7561-33ea-4a47-9534-4e1b74c5eea2","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"7e1f7561-33ea-4a47-9534-4e1b74c5eea2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"944386c4-937a-4d79-af4e-3a25ab7b8fb3","blendMode":0,"displayName":"default","isLocked":false,"name":"944386c4-937a-4d79-af4e-3a25ab7b8fb3","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_player2_avoidant_running",
