@@ -63,6 +63,7 @@ function scr_move_collide(){
 	
 	if(x_dir < max_spd) physics_apply_local_force(0, 0, accel*x_dir, 0);
 	if(y_dir < max_spd) physics_apply_local_force(0, 0, 0, accel*y_dir);
+
 	
 	
 	var _x_power;
