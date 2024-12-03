@@ -5,3 +5,7 @@ start_X = phy_position_x;
 start_y = phy_position_y;
 boxHasMoved = false;
 parent = -1;
+push_dir = "null";
+prev_x = x;
+prev_y = y
+just_pushed = false;

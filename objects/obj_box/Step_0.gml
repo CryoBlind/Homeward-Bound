@@ -5,3 +5,10 @@ if(!boxHasMoved){
 		boxHasMoved = true;
 	}
 }
+
+if x > prev_x push_dir = "right";
+else if x < prev_x push_dir = "left";
+else if y > prev_y push_dir = "down";
+else if y < prev_y push_dir = "up";
+prev_x = x;
+prev_y = y;
