@@ -4,6 +4,11 @@ parent = noone;
 attach = -1;
 fixture = physics_fixture_create();
 
+if(room == Room_Bag){
+	is_baggage = true;
+	sprite_index = spr_baggageKnot;
+}
+
 physics_fixture_set_box_shape(fixture, 1, 1);
 physics_fixture_set_restitution(fixture, 1);
 physics_fixture_set_collision_group(fixture, -1);

@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 //set up global variables
+global.dialogue_feedback_obj = noone;
 global.player1_var = -1;
 global.player2_var = -1;
 global.rope_array = array_create(0);
@@ -55,6 +56,7 @@ enum DIALOGUE_RESULT {
 }
 global.last_dialogue_result = 0;
 
+frames_till_respawn = -1;
 //Initialize Viewports
 view_enabled = true;
 view_visible[0] = true;

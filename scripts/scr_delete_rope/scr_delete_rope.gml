@@ -12,7 +12,7 @@ function scr_delete_rope(){
 		link = global.rope_array[i].joint_with_next_rope;
 		rope =  global.rope_array[i];
 		
-		physics_joint_delete(link);
+		 if(link != -1) physics_joint_delete(link);
 		instance_destroy(rope);
 	}
 	global.rope_array = array_create(0);

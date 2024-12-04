@@ -5,8 +5,8 @@ if(box != noone){
 		if(numButtonsPressed >= numButtonsRequired){
 			with(box){
 				phy_active = false;
-				phy_position_x = parent.x - 128;
-				phy_position_y = parent.y - 128;
+				phy_position_x = parent.x - 96;
+				phy_position_y = parent.y - 96;
 				boxHasMoved = false;
 				phy_active = true;
 			}

@@ -1,5 +1,16 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(frames_till_respawn == -1) {}
+else if(frames_till_respawn > 0){
+	frames_till_respawn--;
+	return;
+}
+else{
+	frames_till_respawn = -1;
+	scr_respawn_players(global.current_player_spawner);
+}
+
+
 if(global.max_tolerable_rope_length > 0){
 	global.current_rope_length = scr_get_rope_length()
 	if(global.rope_strain < 100 && global.current_rope_length > global.max_tolerable_rope_length){
@@ -19,7 +30,15 @@ if(global.max_tolerable_rope_length > 0){
 if(global.rope_strain > 99) global.strain_failure_counter = clamp(global.strain_failure_counter + 1, 0, global.strain_failure_value + 1)
 else global.strain_failure_counter = 0;
 
-if(global.strain_failure_counter >= global.strain_failure_value) scr_respawn_players(global.current_player_spawner);
+if(global.strain_failure_counter >= global.strain_failure_value){
+	frames_till_respawn = 60;
+	instance_destroy(global.knot);
+	global.knot = noone;
+	var previous_joint = global.rope_array[array_length(global.rope_array)/2].joint_with_next_rope;
+	global.rope_array[array_length(global.rope_array)/2].joint_with_next_rope = -1;
+	global.rope_array[array_length(global.rope_array)/2 + 1].parent = noone;
+	physics_joint_delete(previous_joint);
+}
 
 if(!global.can_initiate_dialogue && !global.in_dialogue){
 	if(global.dialogue_cooldown <= 0) global.can_initiate_dialogue = true;
@@ -54,12 +73,18 @@ if(global.last_dialogue_result != DIALOGUE_RESULT.NONE){
 	if(global.last_dialogue_result == DIALOGUE_RESULT.GOOD){
 		//do something good
 		global.attachment_effect_multiplier = clamp(global.attachment_effect_multiplier - .3333, 0, 2)
-		show_debug_message("good things occured")
+		if(global.dialogue_feedback_obj != noone){
+			global.dialogue_feedback_obj.frame_count = 120;
+			global.dialogue_feedback_obj.current_result = 2;
+		}
 	}
 	else{
 		//do something bad
 		global.attachment_effect_multiplier = clamp(global.attachment_effect_multiplier + .3333, 0, 2)
-		show_debug_message("bad things occured")
+		if(global.dialogue_feedback_obj != noone){
+			global.dialogue_feedback_obj.frame_count = 120;
+			global.dialogue_feedback_obj.current_result = 1;
+		}
 	}
 	global.last_dialogue_result = DIALOGUE_RESULT.NONE
 }

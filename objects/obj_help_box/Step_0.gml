@@ -3,7 +3,7 @@
 
 scr_dialogue_input();
 
-if(p1_up && player_that_initiated == 2 || p2_up && player_that_initiated == 1){
+if(p1_up || p2_up){
 	if(should_move){
 		selected_option = clamp(selected_option - 1, 0, array_length(options) - 1)
 	}
@@ -11,7 +11,7 @@ if(p1_up && player_that_initiated == 2 || p2_up && player_that_initiated == 1){
 }
 else if(!p1_down && !p2_down) should_move = true;
 
-if(p1_down && player_that_initiated == 2 || p2_down && player_that_initiated == 1){
+if(p1_down || p2_down){
 	if(should_move){
 		selected_option = clamp(selected_option + 1, 0, array_length(options) - 1)
 		if(options[selected_option] == "") selected_option--;
@@ -22,7 +22,7 @@ else if(!p1_up && !p2_up) should_move = true;
 
 //Depending on what the player wants, do an action
 
-if(space_pressed || control_pressed){
+if(space_pressed || control_pressed || keyboard_check_pressed(vk_enter)){
 	if(options[selected_option] == "Resume"){
 		// Destroy the dialogue box when Space is pressed
 		global.in_dialogue = false;
@@ -37,8 +37,10 @@ if(space_pressed || control_pressed){
 		}
 		instance_destroy();
 	}
-	else if(options[selected_option] == "Level Select")
+	else if(options[selected_option] == "Level Select"){
 		room_goto(Room_lvlSelect)
+		instance_destroy();
+	}
 	else if(options[selected_option] == "Exit Game")
 		game_end();
 }
