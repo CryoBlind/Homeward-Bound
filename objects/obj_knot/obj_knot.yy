@@ -40,8 +40,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_knotreal",
-    "path":"sprites/spr_knotreal/spr_knotreal.yy",
+    "name":"spr_knot",
+    "path":"sprites/spr_knot/spr_knot.yy",
   },
   "spriteMaskId":null,
   "visible":true,

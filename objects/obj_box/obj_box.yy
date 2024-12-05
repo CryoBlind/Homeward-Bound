@@ -40,8 +40,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_realbox",
-    "path":"sprites/spr_realbox/spr_realbox.yy",
+    "name":"spr_happyblock",
+    "path":"sprites/spr_happyblock/spr_happyblock.yy",
   },
   "spriteMaskId":null,
   "visible":true,
