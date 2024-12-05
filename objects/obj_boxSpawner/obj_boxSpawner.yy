@@ -24,7 +24,12 @@
   "physicsRestitution":0.1,
   "physicsSensor":false,
   "physicsShape":1,
-  "physicsShapePoints":[],
+  "physicsShapePoints":[
+    {"x":0.0,"y":0.0,},
+    {"x":222.0,"y":0.0,},
+    {"x":222.0,"y":222.0,},
+    {"x":0.0,"y":222.0,},
+  ],
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"box","filters":[],"listItems":[],"multiselect":false,"name":"box","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
@@ -39,5 +44,5 @@
     "path":"sprites/spr_boxSpawner/spr_boxSpawner.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

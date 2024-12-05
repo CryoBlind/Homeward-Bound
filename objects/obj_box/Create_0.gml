@@ -9,5 +9,3 @@ push_dir = "null";
 prev_x = x;
 prev_y = y
 just_pushed = false;
-image_xscale = .75;
-image_yscale = .75;
