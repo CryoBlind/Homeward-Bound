@@ -79,7 +79,7 @@
     {"name":"spr_goal","order":7,"path":"sprites/spr_goal/spr_goal.yy",},
     {"name":"spr_happyblock","order":75,"path":"sprites/spr_happyblock/spr_happyblock.yy",},
     {"name":"spr_key","order":78,"path":"sprites/spr_key/spr_key.yy",},
-    {"name":"spr_knot","order":76,"path":"sprites/spr_knot/spr_knot.yy",},
+    {"name":"spr_knot","order":79,"path":"sprites/spr_knot/spr_knot.yy",},
     {"name":"spr_MenuButton","order":1,"path":"sprites/spr_MenuButton/spr_MenuButton.yy",},
     {"name":"spr_NewBridge","order":69,"path":"sprites/spr_NewBridge/spr_NewBridge.yy",},
     {"name":"spr_obstacle","order":64,"path":"sprites/spr_obstacle/spr_obstacle.yy",},
