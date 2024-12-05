@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_key",
-    "path":"sprites/spr_key/spr_key.yy",
+    "name":"spr_keyreal",
+    "path":"sprites/spr_keyreal/spr_keyreal.yy",
   },
   "spriteMaskId":null,
   "visible":true,

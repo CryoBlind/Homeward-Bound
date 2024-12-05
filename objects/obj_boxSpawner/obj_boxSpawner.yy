@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_boxSpawner",
-    "path":"sprites/spr_boxSpawner/spr_boxSpawner.yy",
+    "name":"spr_boxspawnerreal",
+    "path":"sprites/spr_boxspawnerreal/spr_boxspawnerreal.yy",
   },
   "spriteMaskId":null,
   "visible":false,
