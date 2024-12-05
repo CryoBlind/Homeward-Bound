@@ -84,9 +84,9 @@ function scr_move_collide(){
 	}
 	
 	if(current_type == ATTACHMENT_STYLE.ANXIOUS){
-		var _push = 1_000 * global.attachment_effect_multiplier;
+		var _push = 750 * global.attachment_effect_multiplier;
 		if(_dist_from_other_player > global.max_tolerable_rope_length && stepsCount < 1 && moving){
-			stepsCount = 5;
+			stepsCount = 10;
 			global.rope_strain = clamp(global.rope_strain + (20 * global.attachment_effect_multiplier), 0, 120);
 		}
 		
